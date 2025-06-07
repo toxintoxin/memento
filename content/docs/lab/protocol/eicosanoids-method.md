@@ -1,4 +1,4 @@
-# Arachidonic Acid Derived Lipids
+# Eicosanoids method
 
 ## Sample preparation
 
@@ -11,6 +11,8 @@
 7. 重复步骤4, 5
 8. 合并上清液，吹干
 9. Reconstitute with 50 µl of mobile phase A , vortex, 超声5min,14000g离心取35ul上清至进样瓶
+
+*理论上1N HCl稀释1000倍, pH等于3.0*
 
 > 组织样品离心后上清液有脂质出现，转移时要避开  
 > 2ml EP管离心后不好吸, 可转移至1.5mlEP管  
@@ -34,10 +36,10 @@ Inject volumn: 5 μl (tissue)
 | 14.50                    | 100                | 0                  | 350                   |
 | 17.00                    | 100                | 0                  | 350                   |
 
-![Figure 1. Major enzymatic pathways for the synthesis of arachidonic acid-derived eicosanoids](PGs-method/fig-1.png)  
+![Figure 1. Major enzymatic pathways for the synthesis of arachidonic acid-derived eicosanoids](eicosanoids-method/fig-1.png)  
 Figure 1. Major enzymatic pathways for the synthesis of arachidonic acid-derived eicosanoids  
 
-![Figure 2. Representative chromatogram of arachidonic acid-derived eicosanoids in the targeted metabolomic analysis by liquid chromatography – mass spectrometry](PGs-method/fig-2.png)  
+![Figure 2. Representative chromatogram of arachidonic acid-derived eicosanoids in the targeted metabolomic analysis by liquid chromatography – mass spectrometry](eicosanoids-method/fig-2.png)  
 Figure 2. Representative chromatogram of arachidonic acid-derived eicosanoids in the targeted metabolomic analysis by liquid chromatography – mass spectrometry  
 
 | ID # | chemical           | 事件号    | RT    | m/z               |
@@ -118,15 +120,15 @@ Figure 2. Representative chromatogram of arachidonic acid-derived eicosanoids in
 | PGFM-D4           | 0.1                   |
 
 各内标出峰时间截图
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-1.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-2.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-3.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-4.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-5.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-6.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-7.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-8.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-9.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-10.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-11.png)  
-![alt text](PGs-method/internal-standard-spectrum/internal-standard-12.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-1.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-2.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-3.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-4.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-5.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-6.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-7.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-8.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-9.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-10.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-11.png)  
+![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-12.png)  
