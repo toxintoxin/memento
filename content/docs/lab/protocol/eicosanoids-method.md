@@ -12,8 +12,6 @@
 8. 合并上清液，吹干
 9. Reconstitute with 50 µl of mobile phase A , vortex, 超声5min,14000g离心取35ul上清至进样瓶
 
-*理论上1N HCl稀释1000倍, pH等于3.0*
-
 > 组织样品离心后上清液有脂质出现，转移时要避开  
 > 2ml EP管离心后不好吸, 可转移至1.5mlEP管  
 > 转移的上清不能有沉淀, 可用20ul枪吸两次  
@@ -132,3 +130,31 @@ Figure 2. Representative chromatogram of arachidonic acid-derived eicosanoids in
 ![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-10.png)  
 ![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-11.png)  
 ![alt text](eicosanoids-method/internal-standard-spectrum/internal-standard-12.png)  
+
+
+
+
+
+
+
+## modified version
+
+### STDMIX的配制
+
+商品内标均用methanol稀释到500ng/mL  
+然后等体积混合  
+最终得到STDMIX, 每种内标的浓度均为100ng/mL
+
+### 贴壁细胞
+
+1. 用2mLEP管收集刮下来的细胞
+2. 离心去上请, 100μL H2O重悬细胞, 取3μL用于测BCA  
+3. 继续添加300μL H2O  
+4. 加入10μL STDMIX, 涡旋  
+6. 用1N HCl调节PH至3.0 (*理论上1N HCl稀释1000倍, pH等于3.0*)
+7. 1.2mL of Hexane : MTBE (50:50, v/v) into the tube, then vortex for 1min
+8. Centrifuge 5 minutes at 5000g
+9. 转移上清至新的2ml tube
+10. re-extraction
+11. 合并上清液，吹干
+12. Reconstitute with 50 µl of mobile phase A , vortex, 超声5min,14000g离心取35ul上清至进样瓶
