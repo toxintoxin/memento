@@ -1,4 +1,6 @@
-# shiny-server
+---
+title: 'shiny-server'
+---
 
 ## 虚拟机或物理机安装ubuntu 22.04，或云服务器
 

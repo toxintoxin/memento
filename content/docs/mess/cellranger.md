@@ -1,4 +1,6 @@
-# CellRanger
+---
+title: 'CellRanger'
+---
 
 2024年4月2日，最新版本为8.0.0  
 接下来的内容以此为例  

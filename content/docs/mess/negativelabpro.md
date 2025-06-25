@@ -1,3 +1,7 @@
+---
+title: 'Negative Lab Pro'
+---
+
 插件名：Negative Lab Pro
 
 版本：v1.2.1

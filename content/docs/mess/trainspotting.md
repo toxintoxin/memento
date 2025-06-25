@@ -1,4 +1,6 @@
-# trainspotting
+---
+title: 'trainspotting'
+---
 
 Choose life.  
 Choose a job.  

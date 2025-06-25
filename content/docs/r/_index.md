@@ -1,4 +1,6 @@
-# Intro
+---
+title: 'Intro'
+---
 
 language for data science  
 

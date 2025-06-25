@@ -1,4 +1,6 @@
-# shinyapps.io
+---
+title: 'shinyapps.io'
+---
 
 Posit(原Rstudio)提供的最方便部署shinyapp的方式  
 具有不同的定价计划

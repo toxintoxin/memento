@@ -1,4 +1,6 @@
-# VMware
+---
+title: 'VMware'
+---
 
 ## 在A电脑上下载安装vmware
 

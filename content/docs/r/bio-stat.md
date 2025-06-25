@@ -1,4 +1,6 @@
-# bio stat
+---
+title: 'bio stat'
+---
 
 智人数据库
 BiocManager::install('org.Hs.eg.db')
