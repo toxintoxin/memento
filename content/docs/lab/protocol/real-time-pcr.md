@@ -1,4 +1,6 @@
-# Real-time PCR
+---
+title: 'Real-time PCR'
+---
 
 TRNzol universal, 天根
 

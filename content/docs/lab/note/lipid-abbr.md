@@ -1,5 +1,5 @@
 ---
-title: abbreviation
+title: 'abbreviation'
 ---
 
 | Lipid Class                         | Abbr.   |

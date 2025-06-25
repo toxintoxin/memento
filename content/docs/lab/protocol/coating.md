@@ -1,5 +1,5 @@
 ---
-title: Coating
+title: 'Coating'
 ---
 
 对于不易贴壁的细胞, 铺板到玻璃底的器皿之前, 要提前对其进行coating处理  

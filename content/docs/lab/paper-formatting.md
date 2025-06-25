@@ -1,4 +1,6 @@
-# Paper formatting
+---
+title: 'Paper formatting'
+---
 
 [Nature research figures guide](https://research-figure-guide.nature.com/)
 

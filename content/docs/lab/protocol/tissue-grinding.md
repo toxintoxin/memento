@@ -1,4 +1,6 @@
-# 组织研磨
+---
+title: '组织研磨'
+---
 
 instrument: bertin technologies, Precellys Evolution + Cryolys Evolution  
 vials: 

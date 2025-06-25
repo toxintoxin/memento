@@ -1,5 +1,5 @@
 ---
-title: MRM list reference
+title: 'MRM list reference'
 ---
 
 |class|headgroup|

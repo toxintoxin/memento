@@ -1,4 +1,6 @@
-# Western Blot
+---
+title: 'Western Blot'
+---
 
 ## Protocol
 

@@ -1,5 +1,5 @@
 ---
-title: Eicosanoids method
+title: 'Eicosanoids method'
 ---
 
 ## Sample preparation

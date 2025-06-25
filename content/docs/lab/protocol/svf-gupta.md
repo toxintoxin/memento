@@ -1,4 +1,8 @@
-# Isolation and Differentiation of Primary Adipose SVF cells
+---
+title: 'SVF isolation (original)'
+---
+
+Isolation and Differentiation of Primary Adipose SVF cells
 
 Gupta Lab
 version: 05/07/13

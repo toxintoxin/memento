@@ -1,4 +1,6 @@
-# Preparation of istd of lipidomics
+---
+title: 'Preparation of istd of lipidomics'
+---
 
 注意事项 (适用于每个环节，keep in mind)
 
