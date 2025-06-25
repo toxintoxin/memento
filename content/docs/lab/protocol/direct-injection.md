@@ -1,4 +1,6 @@
-# Direct Injection
+---
+title: Direct Injection
+---
 
 ## QE Plus
 

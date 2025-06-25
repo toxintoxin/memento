@@ -5,13 +5,19 @@
 ### SDS-PAGE
 
 ref:  
-~15kDa, 15%PAGE胶, 90V 20min and then 140V 50min  
+~15kDa, 15%PAGE胶, 90V 20min and then 150V 50min  
 
 ### 转膜
 
 Wet
 
 ![alt text](transfer-sandwich.png)
+
+裁膜  
+8.5 x 6.5 cm  
+
+ref:  
+~15kDa, 350mA, 60min  
 
 ### 封闭和孵育抗体
 

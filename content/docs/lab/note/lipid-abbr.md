@@ -1,3 +1,7 @@
+---
+title: abbreviation
+---
+
 | Lipid Class                         | Abbr.   |
 | ----------------------------------- | ------- |
 | Cholesteryl ester                   | CE      |
