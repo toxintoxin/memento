@@ -1,5 +1,5 @@
 ---
-title: 'Intro'
+title: 'R'
 ---
 
 language for data science  
