@@ -2,7 +2,8 @@
 title: 'Real-time PCR'
 ---
 
-TRNzol universal, 天根
+TRNzol universal, TIANGEN, DP424  
+反转试剂, TransScript, AU341  
 
 EP管用Axygen的  
 枪头用拆封的, 不要用湿热灭菌的  
