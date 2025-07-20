@@ -8,6 +8,8 @@ menu:
     pageRef: docs
   - name: Posts
     pageRef: posts
+  - name: Projects
+    pageRef: projects
 
 module:
   imports:
