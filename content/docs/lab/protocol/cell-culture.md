@@ -8,9 +8,17 @@ title: Cell Culture
 
 DMEM, 20%FBS, 1% Pen-Strep  
 
+### THP-1
+
+悬浮细胞  
+
+1640, 10%FBS, 1% Pen-Strep  
+
+
 ### HEK293T
 
 DMEM, 10%FBS, 1% Pen-Strep  
+用培养基吹下  
 
 ### RAW264.7
 
