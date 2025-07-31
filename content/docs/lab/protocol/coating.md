@@ -7,5 +7,5 @@ title: 'Coating'
 poly-D-lysine 50μg/mL  
 加1.4mL到玻底35mm dish里  
 在hood里放置1h, PBS清洗3遍  
-在hood里敞盖放置2h以上晾干  
+在hood里敞盖放置1h以上基本晾干即可, 残留的PBS对细胞无害  
 parafilm缠好, 1周内使用  
