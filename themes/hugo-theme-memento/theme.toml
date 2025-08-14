@@ -1,0 +1,13 @@
+name = "hugo-theme-memento"
+license = "MIT"
+licenselink = "https://github.com/toxintoxin/hugo-theme-memento/blob/main/LICENSE"
+description = "Personal Minimal Hugo Theme."
+homepage = "https://github.com/toxintoxin/hugo-theme-memento/"
+demosite = "https://toxintoxin.github.io/hugo-theme-memento/"
+tags = ["minimal"]
+features = ["gallery"]
+min_version = "0.146.0"
+
+[author]
+  name = "Jiayong Yu"
+  homepage = "https://toxintoxin.github.io/memento/"

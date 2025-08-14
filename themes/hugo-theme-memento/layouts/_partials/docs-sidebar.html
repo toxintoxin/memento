@@ -1,0 +1,106 @@
+{{- define "docsTree" -}}
+  {{- $basePath := .basePath -}}
+  {{- $relPath := .relPath -}}
+  {{- $fullPath := path.Join $basePath $relPath -}}
+  {{- $items := readDir $fullPath -}}
+
+  <ul>
+    {{- range $items }}
+      {{- if .IsDir }}
+        <li class="folder">
+          <span class="folder-toggle">{{ .Name }}</span>
+          <div class="folder-content">
+            {{ template "docsTree" (dict "basePath" $basePath "relPath" (path.Join $relPath .Name)) }}
+          </div>
+        </li>
+      {{- else if strings.HasSuffix .Name ".md" }}
+        {{- $fileRelPath := path.Join $relPath .Name -}}
+        {{- $page := site.GetPage (printf "/docs/%s" (replace $fileRelPath "\\\\" "/")) -}}
+        <li class="file">
+          {{- if $page }}
+            <a href="{{ $page.RelPermalink }}">
+              {{ if $page.Title }}{{ $page.Title }}{{ else }}{{ .Name | replace ".md" "" }}{{ end }}
+            </a>
+          {{- else }}
+            {{ .Name | replace ".md" "" }}
+          {{- end }}
+        </li>
+      {{- end }}
+    {{- end }}
+  </ul>
+{{- end -}}
+
+<div id="docs-sidebar">
+  {{ template "docsTree" (dict "basePath" "content/docs" "relPath" "") }}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const STORAGE_KEY = "docsSidebarOpenFolders";
+
+  // 从 localStorage 读取已展开目录
+  let openFolders = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+
+  document.querySelectorAll("#docs-sidebar .folder-toggle").forEach(function (toggle) {
+    let content = toggle.nextElementSibling;
+    let folderPath = toggle.dataset.path;
+
+    // 如果之前展开过，就恢复
+    if (openFolders.includes(folderPath)) {
+      content.classList.add("open");
+      toggle.classList.add("open");
+    }
+
+    toggle.addEventListener("click", function () {
+      content.classList.toggle("open");
+      toggle.classList.toggle("open");
+
+      if (content.classList.contains("open")) {
+        if (!openFolders.includes(folderPath)) openFolders.push(folderPath);
+      } else {
+        openFolders = openFolders.filter(f => f !== folderPath);
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(openFolders));
+    });
+  });
+});
+</script>
+
+
+<style>
+#docs-sidebar ul {
+  list-style: none;
+  padding-left: 1em;
+  margin: 0;
+}
+
+#docs-sidebar li.folder > .folder-toggle {
+  cursor: pointer;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0.2em 0;
+}
+
+#docs-sidebar li.folder > .folder-toggle::before {
+  content: "▶ ";
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+#docs-sidebar li.folder > .folder-content {
+  display: none;
+  padding-left: 1em;
+}
+
+#docs-sidebar li.folder > .folder-content.open {
+  display: block;
+}
+
+#docs-sidebar li.folder > .folder-toggle.open::before {
+  transform: rotate(90deg);
+}
+
+#docs-sidebar li.file a {
+  text-decoration: none;
+}
+</style>
