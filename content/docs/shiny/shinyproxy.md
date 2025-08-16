@@ -95,7 +95,7 @@ docker run --rm -p 3838:3838 your_image_name
 ```
 
 docker build issues
-![Alt text](./shinyproxy-img/image.png)
+![Alt text](shinyproxy-img/image.png)
 ```
 docker build --no-cache -t your_image_name .
 ```

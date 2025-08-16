@@ -3,8 +3,6 @@ title = 'docsify'
 keywords = ['描述', '中心的', '关键词']
 +++
 
-# docsify
-
 A magical documentation site generator.
 
 ## 安装

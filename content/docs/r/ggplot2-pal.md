@@ -2,7 +2,7 @@
 title = 'ggplot2 默认配色'
 +++
 
-![ggplot2-default-pal](./ggplot2-pal.png)
+![ggplot2-default-pal](ggplot2-pal.png)
 
 hex
 [1] "#F8766D"

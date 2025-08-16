@@ -8,36 +8,36 @@ ShadowsockR[点此直接下载win64版本](https://github.com/HMBSbige/Shadowsoc
 
 1. **解压缩后双击打开**
 
-![open](./ssr-img/open.png)
+![open](ssr-img/open.png)
 
 2. **否**
 
-![yesorno](./ssr-img/yesorno.png)
+![yesorno](ssr-img/yesorno.png)
 
 3. **添加**
 
-![subscribe](./ssr-img/subscribe.png)
+![subscribe](ssr-img/subscribe.png)
 
 4. **订阅地址填你购买的，点击确定并更新**
 
-![subscribe_update](./ssr-img/subscribe_update.png)
+![subscribe_update](ssr-img/subscribe_update.png)
 
 5. **订阅更新成功**
 
-![subscibe_update_paofu](./ssr-img/subscibe_update_paofu.png)
+![subscibe_update_paofu](ssr-img/subscibe_update_paofu.png)
 
 6. **更新PAC，选择绕过大陆域名**
 
-![pac](./ssr-img/pac.png)
+![pac](ssr-img/pac.png)
 
 7. **PAC更新成功**
 
-![pac_update](./ssr-img/pac_update.png)
+![pac_update](ssr-img/pac_update.png)
 
 8. **代理方式选择PAC**
 
-![proxy](./ssr-img/proxy.png)
+![proxy](ssr-img/proxy.png)
 
 9. **更换节点，新加坡和日本可以访问chatGPT**
 
-![node](./ssr-img/node.png)
+![node](ssr-img/node.png)

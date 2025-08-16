@@ -116,7 +116,7 @@ ssh admin@ip
 
    1. 访问成功后，就可以把你的shiny项目放在/srv/shiny-server这个目录下（一般默认是这个目录），比如test文件夹包含标准的shiny结构，那你就可以ip:3838/test然后就能访问你用shiny写的网站了。  
 
-      ![alt text](./shiny-server-img/shinyserver.jpg)
+      ![alt text](shiny-server-img/shinyserver.jpg)
 
       1. 首先会有移动文件等权限问题，让xiaoming等其他普通用户也能上传自己的app  
          @dettli  

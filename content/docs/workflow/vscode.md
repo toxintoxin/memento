@@ -12,9 +12,9 @@ Visual Studio Code是
 ## VSCode设置
 
 `Ctrl+,`打开设置  
-![settings](./vscode-img/settings.png)  
+![settings](vscode-img/settings.png)  
 点击右上角，会打开这个文件  
-![settingsjson](./vscode-img/settingsjson.png)  
+![settingsjson](vscode-img/settingsjson.png)  
 任何不同于默认设置的设置都会显示在这里，是用code表示设置的一种方式，和图形界面中的设置是一致的，只是表现方式不同  
 关于全局我只设置了一个，在所有文件中显示空格  
 
