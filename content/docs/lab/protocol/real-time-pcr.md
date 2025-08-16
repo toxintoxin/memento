@@ -1,6 +1,6 @@
----
-title: 'Real-time PCR'
----
++++
+title = 'Real-time PCR'
++++
 
 TRNzol universal, TIANGEN, DP424  
 反转试剂, TransScript, AU341  

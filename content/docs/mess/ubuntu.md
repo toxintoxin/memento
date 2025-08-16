@@ -1,6 +1,6 @@
----
-title: 'Ubuntu'
----
++++
+title = 'Ubuntu'
++++
 
 DigitalOcean买的
 

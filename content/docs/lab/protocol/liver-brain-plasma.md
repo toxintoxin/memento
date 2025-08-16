@@ -1,6 +1,6 @@
----
-title: 'Liver, Brain, Plasma'
----
++++
+title = 'Liver, Brain, Plasma'
++++
 
 ![alt text](liver-brain-plasma-img/1.png)
 ![alt text](liver-brain-plasma-img/2.png)

@@ -1,6 +1,7 @@
----
-keywords: [描述, 中心的, 关键词]
----
++++
+title = 'docsify'
+keywords = ['描述', '中心的', '关键词']
++++
 
 # docsify
 

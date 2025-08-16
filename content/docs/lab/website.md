@@ -1,6 +1,6 @@
----
-title: '构建实验室网站，基于docusaurus'
----
++++
+title = '构建实验室网站，基于docusaurus'
++++
 
 base on docusaurus v3.2.0  
 

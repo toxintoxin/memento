@@ -1,6 +1,6 @@
----
-title: 迷迭香 Rosemary
----
++++
+title = '迷迭香 Rosemary'
++++
 
 水培迷迭香
 

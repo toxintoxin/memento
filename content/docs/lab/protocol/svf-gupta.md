@@ -1,6 +1,6 @@
----
-title: 'SVF isolation (original)'
----
++++
+title = 'SVF isolation (original)'
++++
 
 Isolation and Differentiation of Primary Adipose SVF cells
 

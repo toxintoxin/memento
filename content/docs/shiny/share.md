@@ -1,6 +1,6 @@
----
-title: 'share'
----
++++
+title = 'share'
++++
 
 分享Shiny app，一般有两种途径：
 

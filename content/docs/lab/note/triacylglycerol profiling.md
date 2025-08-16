@@ -1,6 +1,6 @@
----
-title: 'triacylglycerol profiling'
----
++++
+title = 'triacylglycerol profiling'
++++
 
 [full text](https://doi.org/10.1016/j.aca.2021.339023)
 

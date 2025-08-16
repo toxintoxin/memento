@@ -1,6 +1,6 @@
----
-title: '在vscode里使用R'
----
++++
+title = '在vscode里使用R'
++++
 
 想要在vscode里使用R
 在R里面运行install.packages("languageserver")

@@ -1,6 +1,6 @@
----
-title: 'R'
----
++++
+title = 'R'
++++
 
 language for data science  
 

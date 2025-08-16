@@ -1,6 +1,6 @@
----
-title: 'ATGL DGAT'
----
++++
+title = 'ATGL DGAT'
++++
 
 ATGL inhibitor: atglistatin  
 DGAT1 inhibitor: A922500  

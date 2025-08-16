@@ -1,6 +1,6 @@
----
-title: 'point-plot'
----
++++
+title = 'point-plot'
++++
 
 
 ```r

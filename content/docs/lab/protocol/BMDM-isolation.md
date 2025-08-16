@@ -1,6 +1,6 @@
----
-title: 'BMDM isolation'
----
++++
+title = 'BMDM isolation'
++++
 
 ## 取骨过程  
 

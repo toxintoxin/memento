@@ -1,6 +1,6 @@
----
-title: In-gel Fluorescence
----
++++
+title = 'In-gel Fluorescence'
++++
 
 开始: 具有荧光蛋白的总蛋白提取物, 或click反应后的总蛋白提取物  
 

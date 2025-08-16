@@ -1,6 +1,6 @@
----
-title: 'Serum de-lipidation'
----
++++
+title = 'Serum de-lipidation'
++++
 
 Serum de-lipidation using LRA (lipid removal absorbent)
 LRA (Lipid Removal Agent)

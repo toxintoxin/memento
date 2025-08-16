@@ -1,6 +1,6 @@
----
-title: 'PC settings'
----
++++
+title = 'PC settings'
++++
 
 ## Rules
 

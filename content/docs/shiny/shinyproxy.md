@@ -1,6 +1,6 @@
----
-title: 'shinyproxy'
----
++++
+title = 'shinyproxy'
++++
 
 ## 自动生成shiny的Dockerfile
 

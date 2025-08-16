@@ -1,6 +1,7 @@
----
-title: 'SVF isolation (modified)'
----
++++
+title = 'SVF isolation (modified)'
++++
+
 Isolation and Differentiation of Primary Adipose SVF cells
 
 ## Reagents：
