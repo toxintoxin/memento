@@ -1,5 +1,5 @@
 +++
-title = 'beef'
+title = "beef"
 +++
 
 Angus Beef Chart

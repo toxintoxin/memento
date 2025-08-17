@@ -1,5 +1,5 @@
 +++
-title = 'Negative Lab Pro'
+title = "Negative Lab Pro"
 +++
 
 插件名：Negative Lab Pro

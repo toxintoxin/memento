@@ -1,5 +1,5 @@
 +++
-title = 'bio stat'
+title = "bio stat"
 +++
 
 智人数据库

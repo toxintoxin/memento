@@ -1,5 +1,5 @@
 +++
-title = 'ggplot2 默认配色'
+title = "ggplot2 默认配色"
 +++
 
 ![ggplot2-default-pal](ggplot2-pal.png)

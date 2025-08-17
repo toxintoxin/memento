@@ -1,5 +1,5 @@
 +++
-title = 'Real-time PCR'
+title = "Real-time PCR"
 +++
 
 TRNzol universal, TIANGEN, DP424  
