@@ -1,3 +1,3 @@
 +++
-title = "能直接套用的模板"
+title = "ggplot2-templates _index"
 +++

@@ -1,4 +1,5 @@
 +++
+lastmod = 2024-12-31
 title = "bio stat"
 +++
 
