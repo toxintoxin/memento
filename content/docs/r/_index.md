@@ -1,5 +1,5 @@
 +++
-title = "R"
+title = "r _index"
 +++
 
 language for data science  
