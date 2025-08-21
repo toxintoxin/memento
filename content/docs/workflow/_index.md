@@ -2,4 +2,4 @@
 title = "$ workflow"
 +++
 
-personal workflow, a record
+_index.md of **workflow** directory

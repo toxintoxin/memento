@@ -1,5 +1,5 @@
 +++
-title = "$ docs"
+title = "title of _index.md"
 +++
 
-select a file
+_index.md of **content/docs/** directory

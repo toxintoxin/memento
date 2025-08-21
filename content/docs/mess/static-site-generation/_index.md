@@ -1,3 +1,5 @@
 +++
-title = "$ static-site-generation"
+title = "static-site-generation"
 +++
+
+_index.md of **static-site-generation** directory

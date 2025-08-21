@@ -2,4 +2,4 @@
 title = "$ mess"
 +++
 
-anything
+_index.md of **mess** directory

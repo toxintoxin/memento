@@ -1,3 +1,3 @@
 +++
-title = "$ note"
+title = "note"
 +++
