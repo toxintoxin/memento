@@ -1,6 +1,6 @@
 +++
 lastmod = 2024-07-26
-title = "ggplot2 默认配色"
+title = "配色"
 +++
 
 ![ggplot2-default-pal](images/ggplot2-pal.png)

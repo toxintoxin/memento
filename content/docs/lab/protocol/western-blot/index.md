@@ -14,7 +14,7 @@ ref:
 
 Wet
 
-![alt text](transfer-sandwich.png)
+![alt text](images/transfer-sandwich.png)
 
 裁膜  
 8.5 x 6.5 cm  

@@ -8,4 +8,6 @@ title = "Blade Runner"
 
 > Implants! Those aren't your memories. They're somebody else's.
 
+did not build  
 ![rachael-2](images/Blade.Runner.1982.2160p.BluRay.x264.8bit.SDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.mkv_003401.790.png)  
+did not build  

@@ -4,4 +4,4 @@ title = "beef"
 +++
 
 Angus Beef Chart
-![alt text](Angus-Beef-Chart.png)
+![alt text](images/Angus-Beef-Chart.png)
