@@ -1,3 +1,3 @@
 +++
-title = "static-site-generation _index"
+title = "+= static-site-generation"
 +++

@@ -1,3 +1,3 @@
 +++
-title = "note _index"
+title = "+= note"
 +++

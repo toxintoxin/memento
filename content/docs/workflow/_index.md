@@ -1,5 +1,5 @@
 +++
-title = "workflow _index"
+title = "+= workflow"
 +++
 
 personal workflow, a record

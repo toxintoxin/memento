@@ -1,3 +1,3 @@
 +++
-title = "ggplot2-templates _index"
+title = "+= ggplot2-templates"
 +++

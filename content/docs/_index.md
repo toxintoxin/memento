@@ -1,5 +1,5 @@
 +++
-title = "docs _index"
+title = "+= docs"
 +++
 
 select a file
