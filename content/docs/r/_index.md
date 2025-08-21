@@ -1,5 +1,5 @@
 +++
-title = "+= r"
+title = "$ r"
 +++
 
 language for data science  

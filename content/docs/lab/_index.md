@@ -1,5 +1,5 @@
 +++
-title = "+= lab"
+title = "$ lab"
 +++
 
 SIII B612, Shanghai

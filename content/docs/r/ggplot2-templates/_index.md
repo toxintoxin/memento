@@ -1,3 +1,3 @@
 +++
-title = "+= ggplot2-templates"
+title = "$ ggplot2-templates"
 +++

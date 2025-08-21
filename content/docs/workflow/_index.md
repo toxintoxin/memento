@@ -1,5 +1,5 @@
 +++
-title = "+= workflow"
+title = "$ workflow"
 +++
 
 personal workflow, a record

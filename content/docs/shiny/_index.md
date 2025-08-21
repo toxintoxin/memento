@@ -1,3 +1,3 @@
 +++
-title = "+= shiny"
+title = "$ shiny"
 +++

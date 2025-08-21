@@ -1,5 +1,5 @@
 +++
-title = "+= docs"
+title = "$ docs"
 +++
 
 select a file

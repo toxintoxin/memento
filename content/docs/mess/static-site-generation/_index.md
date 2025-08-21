@@ -1,3 +1,3 @@
 +++
-title = "+= static-site-generation"
+title = "$ static-site-generation"
 +++
