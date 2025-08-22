@@ -1,6 +1,8 @@
 +++
 title = "牛油果计划"
 description = "从果实到树, 记录/指南"
+[params]
+featured = "images/overview01.jpg"
 +++
 
 ![alt text](images/01-牛油果-02-成熟.jpg)  
