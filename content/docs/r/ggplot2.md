@@ -33,7 +33,47 @@ ggplot(data, aes(x = x, y = y, color = .data[[color_var]])) +
   geom_point()
 ```
 
+
+
+
+
+
+
+
+
+
 ## export
+
+
+
+统一主题
+
+```r
+theme_figure <- function(base_size = 7, base_family = "",
+                     header_family = NULL,
+                     base_line_size = base_size / 22,
+                     base_rect_size = base_size / 22,
+                     ink = "black", paper = "white", accent = "#3366FF") {
+  # Starts with theme_grey and then modify some parts
+  theme_grey(
+    base_size = base_size,
+    base_family = base_family,
+    header_family = header_family,
+    base_line_size = base_line_size,
+    base_rect_size = base_rect_size,
+    ink = ink, paper = paper, accent = accent
+  ) %+replace%
+    theme(
+
+      panel.background = element_rect(fill = "#929292", colour = "#000000"),
+      panel.border     = element_rect(colour = "#00FFFF"),
+
+      complete = TRUE
+    )
+}
+```
+
+
 
 Cell杂志要求图片中的字为6-8pt，线图的宽度在0.5-1.5pt。  
 Science杂志要求图片中字的大小最小为6pt，线图宽度至少为0.5pt。  
