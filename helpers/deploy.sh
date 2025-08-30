@@ -4,17 +4,17 @@
 set -e
 
 # 关联远程 gh-pages 分支 到 public
-git worktree add -B gh-pages public origin/gh-pages
+git worktree add -B gh-pages deploy-public origin/gh-pages
 
 # 构建 Hugo
-rm -rf public/*
-hugo build --themesDir .. --destination public
+rm -rf deploy-public/*
+hugo build --themesDir .. --destination deploy-public
 
 # 提交并推送
-cd public
+cd deploy-public
 git add --all
 git commit -m "Rebuild site"
 git push origin gh-pages
 
 cd ..
-git worktree remove public
+git worktree remove deploy-public

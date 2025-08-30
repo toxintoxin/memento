@@ -1,10 +1,10 @@
 docs:
   kind: section
-  title: Docs
+  title: docs
   children:
     fastlab:
       kind: section
-      title: Fastlab
+      title: fastlab
       children:
         oldstart:
           kind: page
@@ -16,7 +16,7 @@ docs:
           link: /memento/docs/fastlab/start/
     lab:
       kind: section
-      title: Lab
+      title: lab
       children:
         data-analysis:
           kind: page
@@ -28,7 +28,7 @@ docs:
           link: /memento/docs/lab/website/
         note:
           kind: section
-          title: Note
+          title: note
           children:
             mrmlist:
               kind: page
@@ -40,15 +40,15 @@ docs:
               link: /memento/docs/lab/note/triacylglycerol-profiling/
             lipid-abbr:
               kind: page
-              title: Lipid abbr
+              title: lipid-abbr
               link: /memento/docs/lab/note/lipid-abbr/
         paperformatting:
           kind: page
-          title: Paperformatting
+          title: paperformatting
           link: /memento/docs/lab/paperformatting/
         protocol:
           kind: section
-          title: Protocol
+          title: protocol
           children:
             3ple:
               kind: page
@@ -61,7 +61,7 @@ docs:
             ATGL-DGAT:
               kind: page
               title: ATGL DGAT
-              link: /memento/docs/lab/protocol/ATGL-DGAT/
+              link: /memento/docs/lab/protocol/atgl-dgat/
             biotin-pulldown:
               kind: page
               title: biotin pulldown
@@ -69,15 +69,15 @@ docs:
             BMDM-isolation:
               kind: page
               title: BMDM isolation
-              link: /memento/docs/lab/protocol/BMDM-isolation/
+              link: /memento/docs/lab/protocol/bmdm-isolation/
             BP-pacFA-protocol-v2:
               kind: page
               title: BP-pacFA protocol version 2
-              link: /memento/docs/lab/protocol/BP-pacFA-protocol-v2/
+              link: /memento/docs/lab/protocol/bp-pacfa-protocol-v2/
             BP-pacFA-protocol:
               kind: page
               title: BP-pacFA-protocol
-              link: /memento/docs/lab/protocol/BP-pacFA-protocol/
+              link: /memento/docs/lab/protocol/bp-pacfa-protocol/
             cell-culture:
               kind: page
               title: Cell Culture
@@ -157,7 +157,7 @@ docs:
             siRNA-transfection:
               kind: page
               title: siRNA transfection
-              link: /memento/docs/lab/protocol/siRNA-transfection/
+              link: /memento/docs/lab/protocol/sirna-transfection/
             super-cent:
               kind: page
               title: 超离步骤
@@ -176,39 +176,39 @@ docs:
               link: /memento/docs/lab/protocol/tissue-grinding/
             eicosanoids-method:
               kind: page
-              title: Eicosanoids method
+              title: eicosanoids-method
               link: /memento/docs/lab/protocol/eicosanoids-method/
             lipidomics-opti:
               kind: page
-              title: Lipidomics opti
+              title: lipidomics-opti
               link: /memento/docs/lab/protocol/lipidomics-opti/
             lipidomics-sciex:
               kind: page
-              title: Lipidomics sciex
+              title: lipidomics-sciex
               link: /memento/docs/lab/protocol/lipidomics-sciex/
             liver-brain-plasma:
               kind: page
-              title: Liver brain plasma
+              title: liver-brain-plasma
               link: /memento/docs/lab/protocol/liver-brain-plasma/
             ms-method-ref:
               kind: page
-              title: Ms method ref
+              title: ms-method-ref
               link: /memento/docs/lab/protocol/ms-method-ref/
             svf-gupta:
               kind: page
-              title: Svf gupta
+              title: svf-gupta
               link: /memento/docs/lab/protocol/svf-gupta/
             svf-mod:
               kind: page
-              title: Svf mod
+              title: svf-mod
               link: /memento/docs/lab/protocol/svf-mod/
             western-blot:
               kind: page
-              title: Western blot
+              title: western-blot
               link: /memento/docs/lab/protocol/western-blot/
     mess:
       kind: section
-      title: Mess
+      title: mess
       children:
         cellranger:
           kind: page
@@ -248,15 +248,15 @@ docs:
           link: /memento/docs/mess/vmware/
         beef:
           kind: page
-          title: Beef
+          title: beef
           link: /memento/docs/mess/beef/
         camera:
           kind: page
-          title: Camera
+          title: camera
           link: /memento/docs/mess/camera/
         static-site-generation:
           kind: section
-          title: Static site generation
+          title: static-site-generation
           children:
             docsify:
               kind: page
@@ -276,7 +276,7 @@ docs:
               link: /memento/docs/mess/static-site-generation/vitepress/
     r:
       kind: section
-      title: R
+      title: r
       children:
         bio-stat:
           kind: page
@@ -292,11 +292,11 @@ docs:
           link: /memento/docs/r/r-intro/
         ggplot2-pretty:
           kind: page
-          title: Ggplot2 pretty
+          title: ggplot2-pretty
           link: /memento/docs/r/ggplot2-pretty/
         ggplot2-templates:
           kind: section
-          title: Ggplot2 templates
+          title: ggplot2-templates
           children:
             point-plot:
               kind: page
@@ -304,15 +304,15 @@ docs:
               link: /memento/docs/r/ggplot2-templates/point-plot/
         palette:
           kind: page
-          title: Palette
+          title: palette
           link: /memento/docs/r/palette/
         tips:
           kind: page
-          title: Tips
+          title: tips
           link: /memento/docs/r/tips/
     shiny:
       kind: section
-      title: Shiny
+      title: shiny
       children:
         share:
           kind: page
@@ -324,19 +324,19 @@ docs:
           link: /memento/docs/shiny/shiny-as-r-package/
         shiny-server:
           kind: page
-          title: Shiny server
+          title: shiny-server
           link: /memento/docs/shiny/shiny-server/
         shinyapps:
           kind: page
-          title: Shinyapps
+          title: shinyapps
           link: /memento/docs/shiny/shinyapps/
         shinyproxy:
           kind: page
-          title: Shinyproxy
+          title: shinyproxy
           link: /memento/docs/shiny/shinyproxy/
     workflow:
       kind: section
-      title: Workflow
+      title: workflow
       children:
         edge:
           kind: page
@@ -364,9 +364,9 @@ docs:
           link: /memento/docs/workflow/zotero/
         ssr:
           kind: page
-          title: Ssr
+          title: ssr
           link: /memento/docs/workflow/ssr/
         vscode:
           kind: page
-          title: Vscode
+          title: vscode
           link: /memento/docs/workflow/vscode/
