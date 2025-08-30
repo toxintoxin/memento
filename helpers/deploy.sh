@@ -12,6 +12,8 @@ python3 -u helpers/docs_sidebar.py
 # build
 hugo build --themesDir .. --destination ../public
 
+git add .
+git push origin main
 # checkout branch gh-pages
 git checkout gh-pages
 git rm -rf *
