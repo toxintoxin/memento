@@ -9,11 +9,11 @@ docs:
         oldstart:
           kind: page
           title: 启动项目
-          link: /docs/fastlab/oldstart/
+          link: /memento/docs/fastlab/oldstart/
         start:
           kind: page
           title: 开始
-          link: /docs/fastlab/start/
+          link: /memento/docs/fastlab/start/
     lab:
       kind: section
       title: Lab
@@ -21,11 +21,11 @@ docs:
         data-analysis:
           kind: page
           title: 模型拟合
-          link: /docs/lab/data-analysis/
+          link: /memento/docs/lab/data-analysis/
         website:
           kind: page
           title: 构建实验室网站，基于docusaurus
-          link: /docs/lab/website/
+          link: /memento/docs/lab/website/
         note:
           kind: section
           title: Note
@@ -33,19 +33,19 @@ docs:
             mrmlist:
               kind: page
               title: MRM list reference
-              link: /docs/lab/note/mrmlist/
+              link: /memento/docs/lab/note/mrmlist/
             triacylglycerol-profiling:
               kind: page
               title: triacylglycerol profiling
-              link: /docs/lab/note/triacylglycerol-profiling/
+              link: /memento/docs/lab/note/triacylglycerol-profiling/
             lipid-abbr:
               kind: page
               title: Lipid abbr
-              link: /docs/lab/note/lipid-abbr/
+              link: /memento/docs/lab/note/lipid-abbr/
         paperformatting:
           kind: page
           title: Paperformatting
-          link: /docs/lab/paperformatting/
+          link: /memento/docs/lab/paperformatting/
         protocol:
           kind: section
           title: Protocol
@@ -53,159 +53,159 @@ docs:
             3ple:
               kind: page
               title: 3PLE
-              link: /docs/lab/protocol/3ple/
+              link: /memento/docs/lab/protocol/3ple/
             accucore-c30:
               kind: page
               title: Accucore™ C30
-              link: /docs/lab/protocol/accucore-c30/
+              link: /memento/docs/lab/protocol/accucore-c30/
             ATGL-DGAT:
               kind: page
               title: ATGL DGAT
-              link: /docs/lab/protocol/ATGL-DGAT/
+              link: /memento/docs/lab/protocol/ATGL-DGAT/
             biotin-pulldown:
               kind: page
               title: biotin pulldown
-              link: /docs/lab/protocol/biotin-pulldown/
+              link: /memento/docs/lab/protocol/biotin-pulldown/
             BMDM-isolation:
               kind: page
               title: BMDM isolation
-              link: /docs/lab/protocol/BMDM-isolation/
+              link: /memento/docs/lab/protocol/BMDM-isolation/
             BP-pacFA-protocol-v2:
               kind: page
               title: BP-pacFA protocol version 2
-              link: /docs/lab/protocol/BP-pacFA-protocol-v2/
+              link: /memento/docs/lab/protocol/BP-pacFA-protocol-v2/
             BP-pacFA-protocol:
               kind: page
               title: BP-pacFA-protocol
-              link: /docs/lab/protocol/BP-pacFA-protocol/
+              link: /memento/docs/lab/protocol/BP-pacFA-protocol/
             cell-culture:
               kind: page
               title: Cell Culture
-              link: /docs/lab/protocol/cell-culture/
+              link: /memento/docs/lab/protocol/cell-culture/
             click-imaging:
               kind: page
               title: click imaging
-              link: /docs/lab/protocol/click-imaging/
+              link: /memento/docs/lab/protocol/click-imaging/
             coating:
               kind: page
               title: Coating
-              link: /docs/lab/protocol/coating/
+              link: /memento/docs/lab/protocol/coating/
             coomassie:
               kind: page
               title: 考马斯亮蓝染色
-              link: /docs/lab/protocol/coomassie/
+              link: /memento/docs/lab/protocol/coomassie/
             coverslip:
               kind: page
               title: Coverslip
-              link: /docs/lab/protocol/coverslip/
+              link: /memento/docs/lab/protocol/coverslip/
             direct-injection:
               kind: page
               title: Direct Injection
-              link: /docs/lab/protocol/direct-injection/
+              link: /memento/docs/lab/protocol/direct-injection/
             immunofluorescence:
               kind: page
               title: Immunofluorescence
-              link: /docs/lab/protocol/immunofluorescence/
+              link: /memento/docs/lab/protocol/immunofluorescence/
             in-gel-fluorescence:
               kind: page
               title: In-gel Fluorescence
-              link: /docs/lab/protocol/in-gel-fluorescence/
+              link: /memento/docs/lab/protocol/in-gel-fluorescence/
             lipid-droplet-isolation:
               kind: page
               title: Lipid droplet isolation
-              link: /docs/lab/protocol/lipid-droplet-isolation/
+              link: /memento/docs/lab/protocol/lipid-droplet-isolation/
             lipidomics:
               kind: page
               title: Lipidomics
-              link: /docs/lab/protocol/lipidomics/
+              link: /memento/docs/lab/protocol/lipidomics/
             lysates-click:
               kind: page
               title: lysates click reaction
-              link: /docs/lab/protocol/lysates-click/
+              link: /memento/docs/lab/protocol/lysates-click/
             master:
               kind: page
               title: 'Lipidomic analysis: Yeast, Mammals and Worms'
-              link: /docs/lab/protocol/master/
+              link: /memento/docs/lab/protocol/master/
             metabolomics:
               kind: page
               title: Metabolomics mammalian cells
-              link: /docs/lab/protocol/metabolomics/
+              link: /memento/docs/lab/protocol/metabolomics/
             phos:
               kind: page
               title: 磷的标定
-              link: /docs/lab/protocol/phos/
+              link: /memento/docs/lab/protocol/phos/
             preparation-of-istd:
               kind: page
               title: Preparation of istd of lipidomics
-              link: /docs/lab/protocol/preparation-of-istd/
+              link: /memento/docs/lab/protocol/preparation-of-istd/
             protein-extraction:
               kind: page
               title: protein extraction
-              link: /docs/lab/protocol/protein-extraction/
+              link: /memento/docs/lab/protocol/protein-extraction/
             reagent:
               kind: page
               title: Reagent
-              link: /docs/lab/protocol/reagent/
+              link: /memento/docs/lab/protocol/reagent/
             real-time-pcr:
               kind: page
               title: Real-time PCR
-              link: /docs/lab/protocol/real-time-pcr/
+              link: /memento/docs/lab/protocol/real-time-pcr/
             serum-delipidation:
               kind: page
               title: Serum de-lipidation
-              link: /docs/lab/protocol/serum-delipidation/
+              link: /memento/docs/lab/protocol/serum-delipidation/
             siRNA-transfection:
               kind: page
               title: siRNA transfection
-              link: /docs/lab/protocol/siRNA-transfection/
+              link: /memento/docs/lab/protocol/siRNA-transfection/
             super-cent:
               kind: page
               title: 超离步骤
-              link: /docs/lab/protocol/super-cent/
+              link: /memento/docs/lab/protocol/super-cent/
             surface-biotinylation:
               kind: page
               title: Surface Biotinylation Assay
-              link: /docs/lab/protocol/surface-biotinylation/
+              link: /memento/docs/lab/protocol/surface-biotinylation/
             tca:
               kind: page
               title: TCA
-              link: /docs/lab/protocol/tca/
+              link: /memento/docs/lab/protocol/tca/
             tissue-grinding:
               kind: page
               title: 组织研磨
-              link: /docs/lab/protocol/tissue-grinding/
+              link: /memento/docs/lab/protocol/tissue-grinding/
             eicosanoids-method:
               kind: page
               title: Eicosanoids method
-              link: /docs/lab/protocol/eicosanoids-method/
+              link: /memento/docs/lab/protocol/eicosanoids-method/
             lipidomics-opti:
               kind: page
               title: Lipidomics opti
-              link: /docs/lab/protocol/lipidomics-opti/
+              link: /memento/docs/lab/protocol/lipidomics-opti/
             lipidomics-sciex:
               kind: page
               title: Lipidomics sciex
-              link: /docs/lab/protocol/lipidomics-sciex/
+              link: /memento/docs/lab/protocol/lipidomics-sciex/
             liver-brain-plasma:
               kind: page
               title: Liver brain plasma
-              link: /docs/lab/protocol/liver-brain-plasma/
+              link: /memento/docs/lab/protocol/liver-brain-plasma/
             ms-method-ref:
               kind: page
               title: Ms method ref
-              link: /docs/lab/protocol/ms-method-ref/
+              link: /memento/docs/lab/protocol/ms-method-ref/
             svf-gupta:
               kind: page
               title: Svf gupta
-              link: /docs/lab/protocol/svf-gupta/
+              link: /memento/docs/lab/protocol/svf-gupta/
             svf-mod:
               kind: page
               title: Svf mod
-              link: /docs/lab/protocol/svf-mod/
+              link: /memento/docs/lab/protocol/svf-mod/
             western-blot:
               kind: page
               title: Western blot
-              link: /docs/lab/protocol/western-blot/
+              link: /memento/docs/lab/protocol/western-blot/
     mess:
       kind: section
       title: Mess
@@ -213,47 +213,47 @@ docs:
         cellranger:
           kind: page
           title: CellRanger
-          link: /docs/mess/cellranger/
+          link: /memento/docs/mess/cellranger/
         greek-alphabet:
           kind: page
           title: Greek alphabet
-          link: /docs/mess/greek-alphabet/
+          link: /memento/docs/mess/greek-alphabet/
         linux:
           kind: page
           title: linux
-          link: /docs/mess/linux/
+          link: /memento/docs/mess/linux/
         markdown-test:
           kind: page
           title: markdown test
-          link: /docs/mess/markdown-test/
+          link: /memento/docs/mess/markdown-test/
         negativelabpro:
           kind: page
           title: Negative Lab Pro
-          link: /docs/mess/negativelabpro/
+          link: /memento/docs/mess/negativelabpro/
         sea-salt-cheese-foam:
           kind: page
           title: 海盐芝士奶盖
-          link: /docs/mess/sea-salt-cheese-foam/
+          link: /memento/docs/mess/sea-salt-cheese-foam/
         trainspotting:
           kind: page
           title: trainspotting
-          link: /docs/mess/trainspotting/
+          link: /memento/docs/mess/trainspotting/
         ubuntu:
           kind: page
           title: Ubuntu
-          link: /docs/mess/ubuntu/
+          link: /memento/docs/mess/ubuntu/
         vmware:
           kind: page
           title: VMware
-          link: /docs/mess/vmware/
+          link: /memento/docs/mess/vmware/
         beef:
           kind: page
           title: Beef
-          link: /docs/mess/beef/
+          link: /memento/docs/mess/beef/
         camera:
           kind: page
           title: Camera
-          link: /docs/mess/camera/
+          link: /memento/docs/mess/camera/
         static-site-generation:
           kind: section
           title: Static site generation
@@ -261,19 +261,19 @@ docs:
             docsify:
               kind: page
               title: docsify
-              link: /docs/mess/static-site-generation/docsify/
+              link: /memento/docs/mess/static-site-generation/docsify/
             docusaurus:
               kind: page
               title: docusaurus
-              link: /docs/mess/static-site-generation/docusaurus/
+              link: /memento/docs/mess/static-site-generation/docusaurus/
             hugo:
               kind: page
               title: 从0构建hugo个人博客
-              link: /docs/mess/static-site-generation/hugo/
+              link: /memento/docs/mess/static-site-generation/hugo/
             vitepress:
               kind: page
               title: vitepress
-              link: /docs/mess/static-site-generation/vitepress/
+              link: /memento/docs/mess/static-site-generation/vitepress/
     r:
       kind: section
       title: R
@@ -281,19 +281,19 @@ docs:
         bio-stat:
           kind: page
           title: bio stat
-          link: /docs/r/bio-stat/
+          link: /memento/docs/r/bio-stat/
         ggplot2:
           kind: page
           title: ggplot2
-          link: /docs/r/ggplot2/
+          link: /memento/docs/r/ggplot2/
         r-intro:
           kind: page
           title: r intro
-          link: /docs/r/r-intro/
+          link: /memento/docs/r/r-intro/
         ggplot2-pretty:
           kind: page
           title: Ggplot2 pretty
-          link: /docs/r/ggplot2-pretty/
+          link: /memento/docs/r/ggplot2-pretty/
         ggplot2-templates:
           kind: section
           title: Ggplot2 templates
@@ -301,15 +301,15 @@ docs:
             point-plot:
               kind: page
               title: point-plot
-              link: /docs/r/ggplot2-templates/point-plot/
+              link: /memento/docs/r/ggplot2-templates/point-plot/
         palette:
           kind: page
           title: Palette
-          link: /docs/r/palette/
+          link: /memento/docs/r/palette/
         tips:
           kind: page
           title: Tips
-          link: /docs/r/tips/
+          link: /memento/docs/r/tips/
     shiny:
       kind: section
       title: Shiny
@@ -317,23 +317,23 @@ docs:
         share:
           kind: page
           title: share
-          link: /docs/shiny/share/
+          link: /memento/docs/shiny/share/
         shiny-as-r-package:
           kind: page
           title: 把shiny应用作为R包开发
-          link: /docs/shiny/shiny-as-r-package/
+          link: /memento/docs/shiny/shiny-as-r-package/
         shiny-server:
           kind: page
           title: Shiny server
-          link: /docs/shiny/shiny-server/
+          link: /memento/docs/shiny/shiny-server/
         shinyapps:
           kind: page
           title: Shinyapps
-          link: /docs/shiny/shinyapps/
+          link: /memento/docs/shiny/shinyapps/
         shinyproxy:
           kind: page
           title: Shinyproxy
-          link: /docs/shiny/shinyproxy/
+          link: /memento/docs/shiny/shinyproxy/
     workflow:
       kind: section
       title: Workflow
@@ -341,32 +341,32 @@ docs:
         edge:
           kind: page
           title: Edge
-          link: /docs/workflow/edge/
+          link: /memento/docs/workflow/edge/
         git:
           kind: page
           title: git
-          link: /docs/workflow/git/
+          link: /memento/docs/workflow/git/
         pc-settings:
           kind: page
           title: PC settings
-          link: /docs/workflow/pc-settings/
+          link: /memento/docs/workflow/pc-settings/
         r-vscode:
           kind: page
           title: 在vscode里使用R
-          link: /docs/workflow/r-vscode/
+          link: /memento/docs/workflow/r-vscode/
         v2ray:
           kind: page
           title: 自建v2ray服务器教程
-          link: /docs/workflow/v2ray/
+          link: /memento/docs/workflow/v2ray/
         zotero:
           kind: page
           title: Zotero
-          link: /docs/workflow/zotero/
+          link: /memento/docs/workflow/zotero/
         ssr:
           kind: page
           title: Ssr
-          link: /docs/workflow/ssr/
+          link: /memento/docs/workflow/ssr/
         vscode:
           kind: page
           title: Vscode
-          link: /docs/workflow/vscode/
+          link: /memento/docs/workflow/vscode/
