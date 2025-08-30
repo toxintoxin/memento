@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on JY MEMENTO</title>
+    <link>https://example.org/memento/projects/</link>
+    <description>Recent content in Projects on JY MEMENTO</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <atom:link href="https://example.org/memento/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>featured is url test</title>
+      <link>https://example.org/memento/projects/z-url-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/memento/projects/z-url-test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Shiomix</title>
+      <link>https://example.org/memento/projects/shimoix/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/memento/projects/shimoix/</guid>
+      <description>&lt;p&gt;旨在提供高效, 优雅, 美观, 可重复性好的解决方案&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>牛油果计划</title>
+      <link>https://example.org/memento/projects/avocado/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/memento/projects/avocado/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/01-%E7%89%9B%E6%B2%B9%E6%9E%9C-02-%E6%88%90%E7%86%9F.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;一颗成熟的牛油果&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/01-%E7%89%9B%E6%B2%B9%E6%9E%9C-03-%E9%A3%9F%E7%94%A8.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;一颗正在被吃的牛油果&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/01-%E7%89%9B%E6%B2%B9%E6%9E%9C-04-%E6%9E%9C%E6%A0%B8.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;一颗吃剩的牛油果&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-01-%E6%B4%97%E5%87%80.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;把果核清洗干净&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-02-%E5%8E%BB%E7%9A%AE.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;把果核外面的皮撕掉&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-03-%E5%8C%85%E8%A3%B9.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;把果核用润湿的餐巾纸包裹起来&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-05-%E8%A3%82%E5%BC%80.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;？天后，果核会自己裂开&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-06-%E5%B0%8F%E6%A0%B9.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;侧面可以看到它的根&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/02-%E6%9E%9C%E6%A0%B8-07-%E6%B0%B4%E5%9F%B9.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;br&gt;&#xA;放置在自制的水培瓶口，水没过根&lt;/p&gt;&#xA;&lt;p&gt;根可以是1或2或3&lt;/p&gt;&#xA;&lt;p&gt;展开4/5个叶片, 并且高度在12cm以上时可以转成土培&lt;/p&gt;&#xA;&lt;p&gt;土是拼多多买的&lt;/p&gt;&#xA;&lt;p&gt;放在室内窗边即可&lt;/p&gt;&#xA;&lt;p&gt;刚入土浇的勤一点&lt;/p&gt;&#xA;&lt;p&gt;后面可以14天一浇&lt;/p&gt;&#xA;&lt;p&gt;如果长菌的话可以用小粉&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>迷迭香 Rosemary</title>
+      <link>https://example.org/memento/projects/rosemary/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/memento/projects/rosemary/</guid>
+      <description>&lt;p&gt;水培迷迭香&lt;/p&gt;&#xA;&lt;p&gt;7.28水培开始&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>迷迭香2 Rosemary2</title>
+      <link>https://example.org/memento/projects/rosemary-test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/memento/projects/rosemary-test/</guid>
+      <description>&lt;p&gt;水培迷迭香&lt;/p&gt;&#xA;&lt;p&gt;7.28水培开始&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
