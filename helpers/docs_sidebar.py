@@ -23,8 +23,8 @@ def read_md_title_toml(md_path: str) -> str | None:
 
 def _nice_title(name: str) -> str:
     """把目录或文件名转成标题"""
-    base = name.replace("-", " ").replace("_", " ").strip()
-    return base.capitalize() if base else name
+    base = name.replace(" ", "-").replace("_", "-")
+    return base
 
 def build_sidebar(dir_path: str, url_path: str = "/memento/docs"):
     node = {}
@@ -37,7 +37,7 @@ def build_sidebar(dir_path: str, url_path: str = "/memento/docs"):
         node = {
             "kind": "page",
             "title": _nice_title(os.path.basename(dir_path)),
-            "link": url_path + "/"
+            "link": (url_path + "/").lower()
         }
         return node
 
@@ -57,7 +57,7 @@ def build_sidebar(dir_path: str, url_path: str = "/memento/docs"):
             node["children"][filename] = {
                 "kind": "page",
                 "title": title,
-                "link": f"{url_path}/{filename}/"
+                "link": f"{url_path}/{filename}/".lower()
             }
 
     # 递归处理子目录
