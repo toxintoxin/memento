@@ -13,6 +13,7 @@ python3 -u helpers/docs_sidebar.py
 hugo build --themesDir .. --destination ../public
 
 git add .
+git commit -m "update"
 git push origin main
 # checkout branch gh-pages
 git checkout gh-pages

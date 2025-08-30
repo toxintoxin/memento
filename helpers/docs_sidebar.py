@@ -26,7 +26,7 @@ def _nice_title(name: str) -> str:
     base = name.replace("-", " ").replace("_", " ").strip()
     return base.capitalize() if base else name
 
-def build_sidebar(dir_path: str, url_path: str = "/docs"):
+def build_sidebar(dir_path: str, url_path: str = "/memento/docs"):
     node = {}
 
     entries = sorted(os.listdir(dir_path), key=lambda s: s.lower())
