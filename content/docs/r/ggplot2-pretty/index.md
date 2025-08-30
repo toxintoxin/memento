@@ -4,4 +4,4 @@ title = "ggplot2 pretty"
 +++
 
 default text size
-![alt text](demo-default-text-sizes-1.png)
+![alt text](images/demo-default-text-sizes-1.png)
