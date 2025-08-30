@@ -9,11 +9,11 @@ docs:
         oldstart:
           kind: page
           title: 启动项目
-          link: /fastlab/oldstart/
+          link: /docs/fastlab/oldstart/
         start:
           kind: page
           title: 开始
-          link: /fastlab/start/
+          link: /docs/fastlab/start/
     lab:
       kind: section
       title: Lab
@@ -21,11 +21,11 @@ docs:
         data-analysis:
           kind: page
           title: 模型拟合
-          link: /lab/data-analysis/
+          link: /docs/lab/data-analysis/
         website:
           kind: page
           title: 构建实验室网站，基于docusaurus
-          link: /lab/website/
+          link: /docs/lab/website/
         note:
           kind: section
           title: Note
@@ -33,19 +33,19 @@ docs:
             mrmlist:
               kind: page
               title: MRM list reference
-              link: /lab/note/mrmlist/
+              link: /docs/lab/note/mrmlist/
             triacylglycerol-profiling:
               kind: page
               title: triacylglycerol profiling
-              link: /lab/note/triacylglycerol-profiling/
+              link: /docs/lab/note/triacylglycerol-profiling/
             lipid-abbr:
               kind: page
               title: Lipid abbr
-              link: /lab/note/lipid-abbr/
+              link: /docs/lab/note/lipid-abbr/
         paperformatting:
           kind: page
           title: Paperformatting
-          link: /lab/paperformatting/
+          link: /docs/lab/paperformatting/
         protocol:
           kind: section
           title: Protocol
@@ -53,159 +53,159 @@ docs:
             3ple:
               kind: page
               title: 3PLE
-              link: /lab/protocol/3ple/
+              link: /docs/lab/protocol/3ple/
             accucore-c30:
               kind: page
               title: Accucore™ C30
-              link: /lab/protocol/accucore-c30/
+              link: /docs/lab/protocol/accucore-c30/
             ATGL-DGAT:
               kind: page
               title: ATGL DGAT
-              link: /lab/protocol/ATGL-DGAT/
+              link: /docs/lab/protocol/ATGL-DGAT/
             biotin-pulldown:
               kind: page
               title: biotin pulldown
-              link: /lab/protocol/biotin-pulldown/
+              link: /docs/lab/protocol/biotin-pulldown/
             BMDM-isolation:
               kind: page
               title: BMDM isolation
-              link: /lab/protocol/BMDM-isolation/
+              link: /docs/lab/protocol/BMDM-isolation/
             BP-pacFA-protocol-v2:
               kind: page
               title: BP-pacFA protocol version 2
-              link: /lab/protocol/BP-pacFA-protocol-v2/
+              link: /docs/lab/protocol/BP-pacFA-protocol-v2/
             BP-pacFA-protocol:
               kind: page
               title: BP-pacFA-protocol
-              link: /lab/protocol/BP-pacFA-protocol/
+              link: /docs/lab/protocol/BP-pacFA-protocol/
             cell-culture:
               kind: page
               title: Cell Culture
-              link: /lab/protocol/cell-culture/
+              link: /docs/lab/protocol/cell-culture/
             click-imaging:
               kind: page
               title: click imaging
-              link: /lab/protocol/click-imaging/
+              link: /docs/lab/protocol/click-imaging/
             coating:
               kind: page
               title: Coating
-              link: /lab/protocol/coating/
+              link: /docs/lab/protocol/coating/
             coomassie:
               kind: page
               title: 考马斯亮蓝染色
-              link: /lab/protocol/coomassie/
+              link: /docs/lab/protocol/coomassie/
             coverslip:
               kind: page
               title: Coverslip
-              link: /lab/protocol/coverslip/
+              link: /docs/lab/protocol/coverslip/
             direct-injection:
               kind: page
               title: Direct Injection
-              link: /lab/protocol/direct-injection/
+              link: /docs/lab/protocol/direct-injection/
             immunofluorescence:
               kind: page
               title: Immunofluorescence
-              link: /lab/protocol/immunofluorescence/
+              link: /docs/lab/protocol/immunofluorescence/
             in-gel-fluorescence:
               kind: page
               title: In-gel Fluorescence
-              link: /lab/protocol/in-gel-fluorescence/
+              link: /docs/lab/protocol/in-gel-fluorescence/
             lipid-droplet-isolation:
               kind: page
               title: Lipid droplet isolation
-              link: /lab/protocol/lipid-droplet-isolation/
+              link: /docs/lab/protocol/lipid-droplet-isolation/
             lipidomics:
               kind: page
               title: Lipidomics
-              link: /lab/protocol/lipidomics/
+              link: /docs/lab/protocol/lipidomics/
             lysates-click:
               kind: page
               title: lysates click reaction
-              link: /lab/protocol/lysates-click/
+              link: /docs/lab/protocol/lysates-click/
             master:
               kind: page
               title: 'Lipidomic analysis: Yeast, Mammals and Worms'
-              link: /lab/protocol/master/
+              link: /docs/lab/protocol/master/
             metabolomics:
               kind: page
               title: Metabolomics mammalian cells
-              link: /lab/protocol/metabolomics/
+              link: /docs/lab/protocol/metabolomics/
             phos:
               kind: page
               title: 磷的标定
-              link: /lab/protocol/phos/
+              link: /docs/lab/protocol/phos/
             preparation-of-istd:
               kind: page
               title: Preparation of istd of lipidomics
-              link: /lab/protocol/preparation-of-istd/
+              link: /docs/lab/protocol/preparation-of-istd/
             protein-extraction:
               kind: page
               title: protein extraction
-              link: /lab/protocol/protein-extraction/
+              link: /docs/lab/protocol/protein-extraction/
             reagent:
               kind: page
               title: Reagent
-              link: /lab/protocol/reagent/
+              link: /docs/lab/protocol/reagent/
             real-time-pcr:
               kind: page
               title: Real-time PCR
-              link: /lab/protocol/real-time-pcr/
+              link: /docs/lab/protocol/real-time-pcr/
             serum-delipidation:
               kind: page
               title: Serum de-lipidation
-              link: /lab/protocol/serum-delipidation/
+              link: /docs/lab/protocol/serum-delipidation/
             siRNA-transfection:
               kind: page
               title: siRNA transfection
-              link: /lab/protocol/siRNA-transfection/
+              link: /docs/lab/protocol/siRNA-transfection/
             super-cent:
               kind: page
               title: 超离步骤
-              link: /lab/protocol/super-cent/
+              link: /docs/lab/protocol/super-cent/
             surface-biotinylation:
               kind: page
               title: Surface Biotinylation Assay
-              link: /lab/protocol/surface-biotinylation/
+              link: /docs/lab/protocol/surface-biotinylation/
             tca:
               kind: page
               title: TCA
-              link: /lab/protocol/tca/
+              link: /docs/lab/protocol/tca/
             tissue-grinding:
               kind: page
               title: 组织研磨
-              link: /lab/protocol/tissue-grinding/
+              link: /docs/lab/protocol/tissue-grinding/
             eicosanoids-method:
               kind: page
               title: Eicosanoids method
-              link: /lab/protocol/eicosanoids-method/
+              link: /docs/lab/protocol/eicosanoids-method/
             lipidomics-opti:
               kind: page
               title: Lipidomics opti
-              link: /lab/protocol/lipidomics-opti/
+              link: /docs/lab/protocol/lipidomics-opti/
             lipidomics-sciex:
               kind: page
               title: Lipidomics sciex
-              link: /lab/protocol/lipidomics-sciex/
+              link: /docs/lab/protocol/lipidomics-sciex/
             liver-brain-plasma:
               kind: page
               title: Liver brain plasma
-              link: /lab/protocol/liver-brain-plasma/
+              link: /docs/lab/protocol/liver-brain-plasma/
             ms-method-ref:
               kind: page
               title: Ms method ref
-              link: /lab/protocol/ms-method-ref/
+              link: /docs/lab/protocol/ms-method-ref/
             svf-gupta:
               kind: page
               title: Svf gupta
-              link: /lab/protocol/svf-gupta/
+              link: /docs/lab/protocol/svf-gupta/
             svf-mod:
               kind: page
               title: Svf mod
-              link: /lab/protocol/svf-mod/
+              link: /docs/lab/protocol/svf-mod/
             western-blot:
               kind: page
               title: Western blot
-              link: /lab/protocol/western-blot/
+              link: /docs/lab/protocol/western-blot/
     mess:
       kind: section
       title: Mess
@@ -213,47 +213,47 @@ docs:
         cellranger:
           kind: page
           title: CellRanger
-          link: /mess/cellranger/
+          link: /docs/mess/cellranger/
         greek-alphabet:
           kind: page
           title: Greek alphabet
-          link: /mess/greek-alphabet/
+          link: /docs/mess/greek-alphabet/
         linux:
           kind: page
           title: linux
-          link: /mess/linux/
+          link: /docs/mess/linux/
         markdown-test:
           kind: page
           title: markdown test
-          link: /mess/markdown-test/
+          link: /docs/mess/markdown-test/
         negativelabpro:
           kind: page
           title: Negative Lab Pro
-          link: /mess/negativelabpro/
+          link: /docs/mess/negativelabpro/
         sea-salt-cheese-foam:
           kind: page
           title: 海盐芝士奶盖
-          link: /mess/sea-salt-cheese-foam/
+          link: /docs/mess/sea-salt-cheese-foam/
         trainspotting:
           kind: page
           title: trainspotting
-          link: /mess/trainspotting/
+          link: /docs/mess/trainspotting/
         ubuntu:
           kind: page
           title: Ubuntu
-          link: /mess/ubuntu/
+          link: /docs/mess/ubuntu/
         vmware:
           kind: page
           title: VMware
-          link: /mess/vmware/
+          link: /docs/mess/vmware/
         beef:
           kind: page
           title: Beef
-          link: /mess/beef/
+          link: /docs/mess/beef/
         camera:
           kind: page
           title: Camera
-          link: /mess/camera/
+          link: /docs/mess/camera/
         static-site-generation:
           kind: section
           title: Static site generation
@@ -261,19 +261,19 @@ docs:
             docsify:
               kind: page
               title: docsify
-              link: /mess/static-site-generation/docsify/
+              link: /docs/mess/static-site-generation/docsify/
             docusaurus:
               kind: page
               title: docusaurus
-              link: /mess/static-site-generation/docusaurus/
+              link: /docs/mess/static-site-generation/docusaurus/
             hugo:
               kind: page
               title: 从0构建hugo个人博客
-              link: /mess/static-site-generation/hugo/
+              link: /docs/mess/static-site-generation/hugo/
             vitepress:
               kind: page
               title: vitepress
-              link: /mess/static-site-generation/vitepress/
+              link: /docs/mess/static-site-generation/vitepress/
     r:
       kind: section
       title: R
@@ -281,19 +281,19 @@ docs:
         bio-stat:
           kind: page
           title: bio stat
-          link: /r/bio-stat/
+          link: /docs/r/bio-stat/
         ggplot2:
           kind: page
           title: ggplot2
-          link: /r/ggplot2/
+          link: /docs/r/ggplot2/
         r-intro:
           kind: page
           title: r intro
-          link: /r/r-intro/
+          link: /docs/r/r-intro/
         ggplot2-pretty:
           kind: page
           title: Ggplot2 pretty
-          link: /r/ggplot2-pretty/
+          link: /docs/r/ggplot2-pretty/
         ggplot2-templates:
           kind: section
           title: Ggplot2 templates
@@ -301,15 +301,15 @@ docs:
             point-plot:
               kind: page
               title: point-plot
-              link: /r/ggplot2-templates/point-plot/
+              link: /docs/r/ggplot2-templates/point-plot/
         palette:
           kind: page
           title: Palette
-          link: /r/palette/
+          link: /docs/r/palette/
         tips:
           kind: page
           title: Tips
-          link: /r/tips/
+          link: /docs/r/tips/
     shiny:
       kind: section
       title: Shiny
@@ -317,23 +317,23 @@ docs:
         share:
           kind: page
           title: share
-          link: /shiny/share/
+          link: /docs/shiny/share/
         shiny-as-r-package:
           kind: page
           title: 把shiny应用作为R包开发
-          link: /shiny/shiny-as-r-package/
+          link: /docs/shiny/shiny-as-r-package/
         shiny-server:
           kind: page
           title: Shiny server
-          link: /shiny/shiny-server/
+          link: /docs/shiny/shiny-server/
         shinyapps:
           kind: page
           title: Shinyapps
-          link: /shiny/shinyapps/
+          link: /docs/shiny/shinyapps/
         shinyproxy:
           kind: page
           title: Shinyproxy
-          link: /shiny/shinyproxy/
+          link: /docs/shiny/shinyproxy/
     workflow:
       kind: section
       title: Workflow
@@ -341,32 +341,32 @@ docs:
         edge:
           kind: page
           title: Edge
-          link: /workflow/edge/
+          link: /docs/workflow/edge/
         git:
           kind: page
           title: git
-          link: /workflow/git/
+          link: /docs/workflow/git/
         pc-settings:
           kind: page
           title: PC settings
-          link: /workflow/pc-settings/
+          link: /docs/workflow/pc-settings/
         r-vscode:
           kind: page
           title: 在vscode里使用R
-          link: /workflow/r-vscode/
+          link: /docs/workflow/r-vscode/
         v2ray:
           kind: page
           title: 自建v2ray服务器教程
-          link: /workflow/v2ray/
+          link: /docs/workflow/v2ray/
         zotero:
           kind: page
           title: Zotero
-          link: /workflow/zotero/
+          link: /docs/workflow/zotero/
         ssr:
           kind: page
           title: Ssr
-          link: /workflow/ssr/
+          link: /docs/workflow/ssr/
         vscode:
           kind: page
           title: Vscode
-          link: /workflow/vscode/
+          link: /docs/workflow/vscode/
