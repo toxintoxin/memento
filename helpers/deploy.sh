@@ -1,28 +1,20 @@
 # activate venv
 .venv/Scripts/activate
 
-# check directory structure
-echo "check_docs_frontmatter.py..."
-python3 -u helpers/check_docs_frontmatter.py
+set -e
 
-# generate doc_sidebar.yaml
-echo "docs_sidebar.py..."
-python3 -u helpers/docs_sidebar.py
+# 关联远程 gh-pages 分支 到 public
+git worktree add -B gh-pages public origin/gh-pages
 
-# build
-hugo build --themesDir .. --destination ../public
+# 构建 Hugo
+rm -rf public/*
+hugo build --themesDir .. --destination public
 
-git add .
-git commit -m "update"
-git push origin main
-# checkout branch gh-pages
-git checkout gh-pages
-git rm -rf *
-cp -r ../public/* .
-git add .
+# 提交并推送
+cd public
+git add --all
 git commit -m "Rebuild site"
-git push origin gh-pages --force
-# checkout branch main
-git checkout main
+git push origin gh-pages
 
-echo "Deploy to gh-pages complete !"
+cd ..
+git worktree remove public
