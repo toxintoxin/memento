@@ -1,11 +1,7 @@
 import os
 import re
 
-# -------------------------
-# Configuration
-# -------------------------
-HELPER_DIR = os.path.dirname(os.path.abspath(__file__))  # path/website/helpers
-WEBSITE_DIR = os.path.abspath(os.path.join(HELPER_DIR, ".."))  # path/website
+WEBSITE_DIR = os.path.dirname(os.path.abspath(__file__))  # path/website
 CHECK_DIR = os.path.join(WEBSITE_DIR, "content", "docs")  # path/website/content/docs
 
 DATE_PATTERN = re.compile(r'^\d{4}-\d{2}-\d{2}$')  # YYYY-MM-DD

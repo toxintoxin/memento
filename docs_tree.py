@@ -83,7 +83,12 @@ def process_directory(directory_path, content_path):
         # 如果没有子内容，返回None（过滤空section）
         if not node['children']:
             return None
-            
+
+        # 排序
+        node['children'].sort(
+            key=lambda x: (0 if x['kind'] == 'section' else 1, x['title'].lower())
+        )
+        
         return node
 
 if __name__ == "__main__":
