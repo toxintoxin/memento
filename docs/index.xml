@@ -23,6 +23,27 @@
       <description>&lt;h2 id=&#34;reagent&#34;&gt;Reagent&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Reagent&lt;/th&gt;&#xA;          &lt;th&gt;Formulation&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;PBS (pH 8.0)&lt;/td&gt;&#xA;          &lt;td&gt;/&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;SDS buffer&lt;/td&gt;&#xA;          &lt;td&gt;/&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Wash buffer&lt;/td&gt;&#xA;          &lt;td&gt;Icecold PBS (pH 8.0) + 1 mM MgCl2 + 2.5 mM CaCl2&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Sulfo-NHS-LC-Biotin&lt;/td&gt;&#xA;          &lt;td&gt;Wash buffer + 0.25 mg/mL Sulfo-NHS-LC-Biotin&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0.1 M Glycine&lt;/td&gt;&#xA;          &lt;td&gt;Wash buffer + 0.1 M Glycine&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;protocol&#34;&gt;Protocol&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;MLFs were washed three times with icecold PBS (pH 8.0) supplemented with 1 mM MgCl2 and 2.5 mM CaCl2.&lt;/li&gt;&#xA;&lt;li&gt;Sulfo-NHS-LC-Biotin (Thermo Scientific, Waltham, MA, USA) was added to the same solution at 0.25 mg mL&lt;!-- raw HTML omitted --&gt;-1&lt;!-- raw HTML omitted --&gt; and incubated with cells at 4 °C for 30 min with gentle rocking.&lt;/li&gt;&#xA;&lt;li&gt;The unbound biotin group was quenched by the addition of 0.1 M glycine.&lt;/li&gt;&#xA;&lt;li&gt;Total proteins were extracted with lysis buffer and incubated overnight at 4 °C with NeutrAvidin agarose beads (Thermo Scientific).&lt;/li&gt;&#xA;&lt;li&gt;The beads were washed three times with PBS (pH 8.0) and bound proteins were eluted with the boiling SDS sample buffer and used for subsequent immunoblot analysis.&lt;/li&gt;&#xA;&lt;li&gt;Western Blot&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
     <item>
+      <title>复杂热图用ComplexHeatmap</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/complexheatmap/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/complexheatmap/</guid>
+      <description>&lt;p&gt;faklsjdlkfj&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>点图</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%82%B9%E5%9B%BE/nihe/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%82%B9%E5%9B%BE/nihe/</guid>
+      <description>&lt;p&gt;sdjfklsjd&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用pheatmap</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/pheatmap/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/pheatmap/</guid>
+      <description>&lt;p&gt;pheatmap&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>ggplot2 pretty</title>
       <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-pretty/</link>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
