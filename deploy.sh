@@ -7,7 +7,6 @@ set -e
 git worktree add -B gh-pages deploy-public origin/gh-pages
 
 # 构建 Hugo
-rm -rf deploy-public/*
 hugo build --themesDir .. --destination deploy-public
 
 # 提交并推送
