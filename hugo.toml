@@ -8,6 +8,9 @@ theme = 'hugo-theme-memento'
   # necessary for extracting date from post filename
   date = [':filename', ':default']
 
+[permalinks]
+  posts = "/posts/:2006/:01/:02/:slug/"
+
 [menus]
   [[menus.main]]
   name = "Home"
