@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JY MEMENTO</title>
+    <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/</link>
+    <description>Recent content on JY MEMENTO</description>
+    <generator>Hugo</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>复杂热图用ComplexHeatmap</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/complexheatmap/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/complexheatmap/</guid>
+      <description>&lt;p&gt;faklsjdlkfj&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用pheatmap</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/pheatmap/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/pheatmap/</guid>
+      <description>&lt;p&gt;pheatmap&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
