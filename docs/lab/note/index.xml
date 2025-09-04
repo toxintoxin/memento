@@ -27,7 +27,7 @@
       <link>https://toxintoxin.github.io/memento/docs/lab/note/triacylglycerol-profiling/</link>
       <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
       <guid>https://toxintoxin.github.io/memento/docs/lab/note/triacylglycerol-profiling/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://doi.org/10.1016/j.aca.2021.339023&#34;&gt;full text&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ars.els-cdn.com/content/image/1-s2.0-S0003267021008497-gr1_lrg.jpg&#34; alt=&#34;https://ars.els-cdn.com/content/image/1-s2.0-S0003267021008497-gr1_lrg.jpg&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://doi.org/10.1016/j.aca.2021.339023&#34; target=&#34;_blank&#34;&gt;full text&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://ars.els-cdn.com/content/image/1-s2.0-S0003267021008497-gr1_lrg.jpg&#34; alt=&#34;https://ars.els-cdn.com/content/image/1-s2.0-S0003267021008497-gr1_lrg.jpg&#34;&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -20,7 +20,7 @@
       <link>https://toxintoxin.github.io/memento/docs/lab/paperformatting/</link>
       <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://toxintoxin.github.io/memento/docs/lab/paperformatting/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://research-figure-guide.nature.com/&#34;&gt;Nature research figures guide&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://research-figure-guide.nature.com/&#34; target=&#34;_blank&#34;&gt;Nature research figures guide&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/image.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>构建实验室网站，基于docusaurus</title>
