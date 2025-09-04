@@ -1,5 +1,5 @@
 +++
-lastmod = 2025-08-31
+lastmod = 2025-09-12
 title = "protein extraction"
 +++
 

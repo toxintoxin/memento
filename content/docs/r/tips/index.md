@@ -1,5 +1,5 @@
 +++
-lastmod = 2024-07-26
+lastmod = 2025-09-12
 title = "R tips"
 +++
 

@@ -1,5 +1,5 @@
 +++
-lastmod = 2022-06-12
+lastmod = 2025-09-12
 title = "SVF isolation (modified)"
 +++
 

@@ -1,5 +1,5 @@
 +++
-lastmod = 2025-02-26
+lastmod = 2025-09-12
 title = "Western Blot"
 +++
 

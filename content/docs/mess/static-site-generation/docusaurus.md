@@ -1,5 +1,5 @@
 +++
-lastmod = 2023-11-08
+lastmod = 2025-09-12
 title = "docusaurus"
 +++
 

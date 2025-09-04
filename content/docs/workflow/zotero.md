@@ -1,5 +1,5 @@
 +++
-lastmod = 2022-12-09
+lastmod = 2025-09-12
 title = "Zotero"
 +++
 

@@ -1,5 +1,5 @@
 +++
-lastmod = 2023-03-09
+lastmod = 2025-09-12
 title = "VSCode"
 +++
 

@@ -1,5 +1,5 @@
 +++
-lastmod = 2023-02-19
+lastmod = 2025-09-12
 title = "Negative Lab Pro"
 +++
 

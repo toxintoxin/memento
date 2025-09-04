@@ -1,5 +1,5 @@
 +++
-lastmod = 2024-10-21
+lastmod = 2025-09-12
 title = "Lipid droplet isolation"
 +++
 

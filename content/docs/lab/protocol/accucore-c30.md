@@ -1,5 +1,5 @@
 +++
-lastmod = 2024-03-06
+lastmod = 2025-09-12
 title = "Accucore™ C30"
 +++
 

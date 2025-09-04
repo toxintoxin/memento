@@ -1,5 +1,5 @@
 +++
-lastmod = 2024-03-11
+lastmod = 2025-09-12
 title =  "linux"
 +++
 

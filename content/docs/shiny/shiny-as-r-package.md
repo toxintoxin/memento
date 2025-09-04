@@ -1,5 +1,5 @@
 +++
-lastmod = 2024-10-19
+lastmod = 2025-09-12
 title = "把shiny应用作为R包开发"
 +++
 

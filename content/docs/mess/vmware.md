@@ -1,5 +1,5 @@
 +++
-lastmod = 2023-08-06
+lastmod = 2025-09-12
 title = "VMware"
 +++
 

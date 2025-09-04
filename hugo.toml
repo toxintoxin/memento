@@ -4,6 +4,11 @@ title = 'JY MEMENTO'
 
 theme = 'hugo-theme-memento'
 
+# quarto necessary
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+[markup.goldmark.renderer]
+  unsafe= true
+
 [frontmatter]
   # necessary for extracting date from post filename
   date = [':filename', ':default']

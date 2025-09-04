@@ -1,5 +1,5 @@
 +++
-lastmod = 2023-12-21
+lastmod = 2025-09-12
 title = "构建实验室网站，基于docusaurus"
 +++
 

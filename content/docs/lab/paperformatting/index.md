@@ -1,5 +1,5 @@
 +++
-lastmod = 2025-06-23
+lastmod = 2025-09-12
 title = "Paper formatting"
 +++
 

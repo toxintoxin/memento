@@ -1,5 +1,5 @@
 +++
-lastmod = 2025-04-03
+lastmod = 2025-09-12
 title = "Eicosanoids method"
 +++
 
