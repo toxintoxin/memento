@@ -1,5 +1,5 @@
 ---
-lastmod = 2025-09-12
+lastmod: 2025-09-12T00:00:00.000Z
 title: Hello, Quarto
 ---
 
