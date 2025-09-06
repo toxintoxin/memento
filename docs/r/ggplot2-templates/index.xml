@@ -6,7 +6,14 @@
     <description>Recent content on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>point-plot</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/point-plot/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-templates/point-plot/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

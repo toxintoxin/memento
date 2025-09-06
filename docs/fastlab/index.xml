@@ -6,7 +6,21 @@
     <description>Recent content on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://toxintoxin.github.io/memento/docs/fastlab/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>启动项目</title>
+      <link>https://toxintoxin.github.io/memento/docs/fastlab/oldstart/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/fastlab/oldstart/</guid>
+      <description>&lt;p&gt;技术栈&lt;/p&gt;&#xA;&lt;p&gt;前端: React (Next.js) + TailwindCSS&lt;br&gt;&#xA;后端: FastAPI + MongoDB&lt;br&gt;&#xA;桌面端封装: Tauri&lt;br&gt;&#xA;自动更新: GitHub Releases&lt;/p&gt;&#xA;&lt;h2 id=&#34;date&#34;&gt;Date&lt;/h2&gt;&#xA;&lt;p&gt;2025-03-16&lt;/p&gt;&#xA;&lt;h2 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h2&gt;&#xA;&lt;h3 id=&#34;system&#34;&gt;System&lt;/h3&gt;&#xA;&lt;p&gt;ubuntu 22.04&lt;/p&gt;&#xA;&lt;h3 id=&#34;rust&#34;&gt;Rust&lt;/h3&gt;&#xA;&lt;h3 id=&#34;nodejs&#34;&gt;Node.js&lt;/h3&gt;&#xA;&lt;p&gt;rust 1.85.1&lt;/p&gt;&#xA;&lt;h2 id=&#34;create-a-project&#34;&gt;Create a project&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>开始</title>
+      <link>https://toxintoxin.github.io/memento/docs/fastlab/start/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/fastlab/start/</guid>
+      <description>&lt;h2 id=&#34;technology-stack&#34;&gt;Technology stack&lt;/h2&gt;&#xA;&lt;p&gt;前端: React (Next.js) + TailwindCSS&lt;br&gt;&#xA;后端: FastAPI + MongoDB&lt;br&gt;&#xA;桌面端封装: Flutter&lt;br&gt;&#xA;自动更新: GitHub Releases&lt;/p&gt;&#xA;&lt;h2 id=&#34;开发平台&#34;&gt;开发平台&lt;/h2&gt;&#xA;&lt;p&gt;windows11 23H2&lt;/p&gt;&#xA;&lt;h2 id=&#34;flutter&#34;&gt;flutter&lt;/h2&gt;&#xA;&lt;p&gt;pub.dev：        {# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://mirrors.tuna.tsinghua.edu.cn/dart-pub&#34; target=&#34;_blank&#34;&gt;https://mirrors.tuna.tsinghua.edu.cn/dart-pub&lt;/a&gt;&#xD;&#xA;&#xA;kMaven：        {# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://maven.aliyun.com/repository/google/&#34; target=&#34;_blank&#34;&gt;https://maven.aliyun.com/repository/google/&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

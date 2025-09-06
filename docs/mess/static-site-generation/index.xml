@@ -6,7 +6,35 @@
     <description>Recent content on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://toxintoxin.github.io/memento/docs/mess/static-site-generation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docsify</title>
+      <link>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/docsify/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/docsify/</guid>
+      <description>&lt;p&gt;A magical documentation site generator.&lt;/p&gt;&#xA;&lt;h2 id=&#34;安装&#34;&gt;安装&lt;/h2&gt;&#xA;&lt;h2 id=&#34;使用&#34;&gt;使用&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>docusaurus</title>
+      <link>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/docusaurus/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/docusaurus/</guid>
+      <description>&lt;p&gt;docsify固然简单方便但是似乎太过于简陋了&lt;br&gt;&#xA;转向docusaurus&lt;/p&gt;&#xA;&lt;p&gt;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://docusaurus.io/&#34; target=&#34;_blank&#34;&gt;https://docusaurus.io/&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>vitepress</title>
+      <link>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/vitepress/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/vitepress/</guid>
+      <description>&lt;p&gt;感觉更倾向于文档&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>从0构建hugo个人博客</title>
+      <link>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/hugo/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/mess/static-site-generation/hugo/</guid>
+      <description>&lt;p&gt;包含个人简历，主要作为个人知识库&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -6,7 +6,49 @@
     <description>Recent content on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://toxintoxin.github.io/memento/docs/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bio stat</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/bio-stat/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/bio-stat/</guid>
+      <description>&lt;p&gt;智人数据库&#xA;BiocManager::install(&amp;lsquo;org.Hs.eg.db&amp;rsquo;)&lt;/p&gt;&#xA;&lt;p&gt;ref: {# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://bioconductor.org/packages/release/BiocViews.html#___OrgDb&#34; target=&#34;_blank&#34;&gt;https://bioconductor.org/packages/release/BiocViews.html#___OrgDb&lt;/a&gt;&#xD;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ggplot2</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2/</guid>
+      <description>&lt;h2 id=&#34;开头定义变量&#34;&gt;开头定义变量&lt;/h2&gt;&#xA;&lt;h2 id=&#34;export&#34;&gt;export&lt;/h2&gt;&#xA;&lt;p&gt;统一主题&lt;/p&gt;&#xA;&lt;p&gt;Cell杂志要求图片中的字为6-8pt，线图的宽度在0.5-1.5pt。&lt;br&gt;&#xA;Science杂志要求图片中字的大小最小为6pt，线图宽度至少为0.5pt。&lt;br&gt;&#xA;综上所述，我们在ggplot2中出图时可以直接设置好字体、字号、颜色和线条宽度等。&lt;/p&gt;&#xA;&lt;p&gt;ggplot2中图片格式设置的逻辑很好理解图片&lt;/p&gt;&#xA;&lt;p&gt;你不需要什么，就把它在theme()中设置为element_blank()即可。&lt;/p&gt;&#xA;&lt;p&gt;如果需要的话，就根据它的类型（点/线/方框/文字）来指定参数。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step1: 设置图片的背景&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;一般学术论文中的图片都不需要背景，因此设置背景为透明，但给panel添加黑色边框。&lt;/p&gt;&#xA;&lt;p&gt;设置整个图片的背景为空，这样即可获得透明背景&lt;/p&gt;&#xA;&lt;p&gt;设置不显示panel的线条，不显示panel的背景，但给panel添加边界，黑色，宽度0.5mm&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step2: 设置坐标轴和坐标轴刻度线的颜色及粗细&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;设置横纵坐标轴为空，因为前面已经指定了panel的边框，这里就不需要再加坐标轴了，否则会出现叠加的线条。当然加上也可以，只不过在AI里就会出现多余的线条。（本强迫症当然是不会允许这种事情发生的）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;指定坐标轴刻度线为黑色，宽度0.5mm&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step3: 设置文字的字体、字号和颜色&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ggplot2中默认所有文字的字体都为Arial，因此无需再指定。而综合CNS杂志的要求，我们建议将字号统一设置为7pt。&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;指定坐标轴的文字为黑色，字号7pt&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;指定坐标轴标题文字为黑色，字号7pt&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol start=&#34;3&#34;&gt;&#xA;&lt;li&gt;指定图片标题为黑色，字号7pt&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step4: 对legend进行设置&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;指定legend的背景设为空&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;指定legend的字号和颜色&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;将以上所有设置全部写入plot.format变量中，在每次画图时直接添加即可图片&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ggplot2 pretty</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/ggplot2-pretty/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/ggplot2-pretty/</guid>
+      <description>&lt;p&gt;default text size&#xA;&lt;img src=&#34;images/demo-default-text-sizes-1.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>r intro</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/r-intro/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/r-intro/</guid>
+      <description>&lt;p&gt;language for data science&lt;/p&gt;&#xA;&lt;p&gt;R是数据科学家发明的统计语言，和python等其他编程语言略有不同，在有些地方会受限，但因为tidyverse中一系列强大的包，能轻松高效优雅的完成数据清洗，整理，处理和可视化，另外也因为其语法的简单，更容易学习和上手，而得到科研工作者的青睐，尽管python的pandas、plotnine和其他包等也能完成，但还是逊色于R，当然python的机器学习能力也是强于R的，最后一点，也是让很多人做出二选一的点，很多生信的包是R专属的，尽管python可以调用，但常常是跑不了或者会出问题的。&lt;br&gt;&#xA;总之，两者都是非常优秀的语言，各有所长，精力有限的情况下请选择最适合自己的语言，但双管齐下绝对会让你走得更远。&lt;/p&gt;&#xA;&lt;p&gt;中文教材&lt;br&gt;&#xA;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://bookdown.org/wangminjie/R4DS/&#34; target=&#34;_blank&#34;&gt;四川师范大学研究生公选课《数据科学中的R语言》&lt;/a&gt;&#xD;&#xA; 非常优秀的教材&lt;br&gt;&#xA;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html&#34; target=&#34;_blank&#34;&gt;北京大学数学科学学院李东风编写的R语言教程&lt;/a&gt;&#xD;&#xA; 内容也非常好, 但或许不如上面四川师范大学的规范, 更像内部交流的入门教材&lt;br&gt;&#xA;{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}&#xD;&#xA;&#xD;&#xA;&lt;a href=&#34;https://bookdown.org/xiangyun/data-analysis-in-action/&#34; target=&#34;_blank&#34;&gt;R 语言数据分析实战&lt;/a&gt;&#xD;&#xA;, 作者黄湘云与赵鹏、谢益辉一起合著了《现代统计图形》, 该书还有章节正在编写中, 已完成的内容供入门足矣&lt;/p&gt;&#xA;&lt;p&gt;英文&lt;br&gt;&#xA;Hadley Wickham的R for Data Science&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>R tips</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/tips/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/tips/</guid>
+      <description>&lt;p&gt;dplyr-joins&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240717110511.jpg&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>配色</title>
+      <link>https://toxintoxin.github.io/memento/docs/r/palette/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://toxintoxin.github.io/memento/docs/r/palette/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/ggplot2-pal.png&#34; alt=&#34;ggplot2-default-pal&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;hex&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#00BFC4&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#00BA38&amp;rdquo; &amp;ldquo;#619CFF&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#7CAE00&amp;rdquo; &amp;ldquo;#00BFC4&amp;rdquo; &amp;ldquo;#C77CFF&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#A3A500&amp;rdquo; &amp;ldquo;#00BF7D&amp;rdquo; &amp;ldquo;#00B0F6&amp;rdquo; &amp;ldquo;#E76BF3&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#B79F00&amp;rdquo; &amp;ldquo;#00BA38&amp;rdquo; &amp;ldquo;#00BFC4&amp;rdquo; &amp;ldquo;#619CFF&amp;rdquo; &amp;ldquo;#F564E3&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#C49A00&amp;rdquo; &amp;ldquo;#53B400&amp;rdquo; &amp;ldquo;#00C094&amp;rdquo; &amp;ldquo;#00B6EB&amp;rdquo; &amp;ldquo;#A58AFF&amp;rdquo; &amp;ldquo;#FB61D7&amp;rdquo;&#xA;[1] &amp;ldquo;#F8766D&amp;rdquo; &amp;ldquo;#CD9600&amp;rdquo; &amp;ldquo;#7CAE00&amp;rdquo; &amp;ldquo;#00BE67&amp;rdquo; &amp;ldquo;#00BFC4&amp;rdquo; &amp;ldquo;#00A9FF&amp;rdquo; &amp;ldquo;#C77CFF&amp;rdquo; &amp;ldquo;#FF61CC&amp;rdquo;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
