@@ -4,11 +4,6 @@ title = 'JY MEMENTO'
 
 theme = 'hugo-theme-memento'
 
-# quarto necessary
-ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
-[markup.goldmark.renderer]
-  unsafe= true
-
 [frontmatter]
   # necessary for extracting date from post filename
   date = [':filename', ':default']
@@ -56,4 +51,5 @@ ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
 # path = "github.com/imfing/hextra"
 
 [params]
-logo = true
+  backgroundImage = "Paper-Texture-8-1536x1152.jpg"
+  logo = true
