@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>BP-pacFA-protocol | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel active">
+    <nav class="cat-panel active" id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel ">
+    <nav class="cat-panel " id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel ">
+    <nav class="cat-panel " id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel ">
+    <nav class="cat-panel " id="workflow">
       <ul>
         
 
@@ -923,59 +922,18 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
-
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
-<div class="toc">
-  <b>On this page</b>
-  <nav id="TableOfContents"></nav>
-</div>
-
-
-
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      const id = entry.target.getAttribute('id');
-      if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
-      } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
-      }
-    });
-  });
-
-  
-  document.querySelectorAll('section[id]').forEach((section) => {
-    observer.observe(section);
-  });
-  
-});
-</script>
-
-</aside>
-
-<div class="content-container">
-
+    <div class="main-container">
   <article class="content">
 
-    
-      <h1>BP-pacFA-protocol</h1>
-      <span style="color: gray">Last updated: 
+  
+    <p style="color: gray">Last updated: 
 
 <time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <p>ref:<br>
-{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://doi.org/10.1021/acschembio.3c00554" target="_blank">Trifunctional Sphinganine: A New Tool to Dissect Sphingolipid Function</a>
-<br>
-{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://doi.org/10.1002/anie.201210178" target="_blank">In Vivo Profiling and Visualization of Cellular Protein–Lipid Interactions Using Bifunctional Fatty Acids</a>
 </p>
+    <h1>BP-pacFA-protocol</h1>
+    <p>ref:<br>
+{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://doi.org/10.1021/acschembio.3c00554">Trifunctional Sphinganine: A New Tool to Dissect Sphingolipid Function</a><br>
+{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://doi.org/10.1002/anie.201210178">In Vivo Profiling and Visualization of Cellular Protein–Lipid Interactions Using Bifunctional Fatty Acids</a></p>
 <p>copper sulfate, 探索<br>
 TCEP(Tris(2-carboxyethyl)phosphine hydrochloride), SIGMA, C4706, (L-Ascorbic acid, SIGMA, A92902)<br>
 TBTA(Tris[(1-benzyl-1H-1,2,3-triazol-4-yl)methyl]amine), SIGMA, 678937<br>
@@ -1010,15 +968,46 @@ in PBS</p>
 <li>incubate with primary antibody</li>
 </ol>
 
-      
-
     
 
-  </article>
+  
 
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
+<div class="toc">
+  <p>On this page</p>
+  <nav id="TableOfContents"></nav>
 </div>
 
 
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
+      const id = entry.target.getAttribute('id');
+      if (entry.intersectionRatio > 0) {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+      } else {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+      }
+    });
+  });
+
+  
+  document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+  });
+  
+});
+</script>
+
+</aside>
   </main>
   <footer>
     <div class="wrapper">

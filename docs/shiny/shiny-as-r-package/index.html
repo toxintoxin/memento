@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>把shiny应用作为R包开发 | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel ">
+    <nav class="cat-panel " id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel ">
+    <nav class="cat-panel " id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel active">
+    <nav class="cat-panel active" id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel ">
+    <nav class="cat-panel " id="workflow">
       <ul>
         
 
@@ -923,11 +922,35 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
+    <div class="main-container">
+  <article class="content">
 
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
+  
+    <p style="color: gray">Last updated: 
+
+<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
+</p>
+    <h1>把shiny应用作为R包开发</h1>
+    <h2 id="创建一个新的r包">创建一个新的R包</h2>
+<p>使用<code>usethis</code>包来快速创建一个新的R包结构。</p>
+<p>这将在当前工作目录中创建一个名为myApp的文件夹，其中包含一个基本的R包结构，<code>DESCRIPTION</code>，<code>NAMESPACE</code>，<code>/R</code>。创建完成后工作目录会自动切换到myApp</p>
+<p><code>DESCRIPTION</code>里面的Imports声明了依赖的包，会在安装myApp的时候检查尚未安装的依赖包</p>
+<p><code>NAMESPACE</code>里面包含了myApp所用的包或具体函数, 以及产生的函数。 若在某个模块里用了ggplot2的函数, 就需要在<code>NAMESPACE</code>里面<code>import(ggplot2)</code>, 并非手动编辑, 通过在模块的.R文件里写注释, 然后用<code>devtools::document()</code>自动更新<code>NAMESPACE</code></p>
+<h2 id="添加shiny应用程序代码">添加Shiny应用程序代码</h2>
+<p>在R包中添加shiny应用程序的代码。通常，shiny应用程序的代码可以放在inst/app目录下。</p>
+<h2 id="常用函数">常用函数</h2>
+
+    
+
+  
+
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
 <div class="toc">
-  <b>On this page</b>
+  <p>On this page</p>
   <nav id="TableOfContents">
   <ul>
     <li><a href="#创建一个新的r包">创建一个新的R包</a></li>
@@ -944,11 +967,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
       const id = entry.target.getAttribute('id');
       if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
       } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
       }
     });
   });
@@ -962,35 +986,6 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 </aside>
-
-<div class="content-container">
-
-  <article class="content">
-
-    
-      <h1>把shiny应用作为R包开发</h1>
-      <span style="color: gray">Last updated: 
-
-<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <h2 id="创建一个新的r包">创建一个新的R包</h2>
-<p>使用<code>usethis</code>包来快速创建一个新的R包结构。</p>
-<p>这将在当前工作目录中创建一个名为myApp的文件夹，其中包含一个基本的R包结构，<code>DESCRIPTION</code>，<code>NAMESPACE</code>，<code>/R</code>。创建完成后工作目录会自动切换到myApp</p>
-<p><code>DESCRIPTION</code>里面的Imports声明了依赖的包，会在安装myApp的时候检查尚未安装的依赖包</p>
-<p><code>NAMESPACE</code>里面包含了myApp所用的包或具体函数, 以及产生的函数。 若在某个模块里用了ggplot2的函数, 就需要在<code>NAMESPACE</code>里面<code>import(ggplot2)</code>, 并非手动编辑, 通过在模块的.R文件里写注释, 然后用<code>devtools::document()</code>自动更新<code>NAMESPACE</code></p>
-<h2 id="添加shiny应用程序代码">添加Shiny应用程序代码</h2>
-<p>在R包中添加shiny应用程序的代码。通常，shiny应用程序的代码可以放在inst/app目录下。</p>
-<h2 id="常用函数">常用函数</h2>
-
-      
-
-    
-
-  </article>
-
-</div>
-
-
   </main>
   <footer>
     <div class="wrapper">

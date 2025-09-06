@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>protein extraction | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel active">
+    <nav class="cat-panel active" id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel ">
+    <nav class="cat-panel " id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel ">
+    <nav class="cat-panel " id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel ">
+    <nav class="cat-panel " id="workflow">
       <ul>
         
 
@@ -923,11 +922,45 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
+    <div class="main-container">
+  <article class="content">
 
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
+  
+    <p style="color: gray">Last updated: 
+
+<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
+</p>
+    <h1>protein extraction</h1>
+    <h2 id="贴壁细胞">贴壁细胞</h2>
+<h3 id="从贴壁细胞中提取">从贴壁细胞中提取</h3>
+<ol>
+<li>雅酶RIPA裂解液(中强, PC102)</li>
+<li>蛋白酶抑制剂</li>
+</ol>
+<p>以6孔板为例<br>
+移去上清, PBS清洗2遍, 250μL RIPA裂解液覆盖细胞, 置于冰上在摇床上摇晃15-20min, 用细胞刮收集细胞至1.5mL EP管中, 12000rpm, 4°C, 5min, 收集上清至新的1.5mL EP管中</p>
+<h3 id="从上清中提取">从上清中提取</h3>
+<ol>
+<li>收集1000μL细胞上清至1.5mL EP管中, 3000rpm, 4°C, 5min</li>
+<li>移动800μL上清至2mL EP管中, 加入800μL甲醇和200μL氯仿, 充分振荡30s, 13000rpm, 4°C, 5min</li>
+<li>小心移去上层(甲醇/水)和下层(氯仿), 不要过分吸上层, 可保留一些</li>
+<li>加入1000μL甲醇, 充分振荡30s, 13000rpm, 4°C, 10min</li>
+<li>移去上清, 晾干(有条件可以真空离心干燥), 但不宜过于干燥, 不易于复溶</li>
+<li>加入40μL 2x loading buffer(蛋白酶抑制剂+), 37°C振荡复溶蛋白, 难以复溶的话可加3%SDS</li>
+<li>100°C煮10min</li>
+</ol>
+
+    
+
+  
+
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
 <div class="toc">
-  <b>On this page</b>
+  <p>On this page</p>
   <nav id="TableOfContents">
   <ul>
     <li><a href="#贴壁细胞">贴壁细胞</a>
@@ -947,11 +980,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
       const id = entry.target.getAttribute('id');
       if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
       } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
       }
     });
   });
@@ -965,45 +999,6 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 </aside>
-
-<div class="content-container">
-
-  <article class="content">
-
-    
-      <h1>protein extraction</h1>
-      <span style="color: gray">Last updated: 
-
-<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <h2 id="贴壁细胞">贴壁细胞</h2>
-<h3 id="从贴壁细胞中提取">从贴壁细胞中提取</h3>
-<ol>
-<li>雅酶RIPA裂解液(中强, PC102)</li>
-<li>蛋白酶抑制剂</li>
-</ol>
-<p>以6孔板为例<br>
-移去上清, PBS清洗2遍, 250μL RIPA裂解液覆盖细胞, 置于冰上在摇床上摇晃15-20min, 用细胞刮收集细胞至1.5mL EP管中, 12000rpm, 4°C, 5min, 收集上清至新的1.5mL EP管中</p>
-<h3 id="从上清中提取">从上清中提取</h3>
-<ol>
-<li>收集1000μL细胞上清至1.5mL EP管中, 3000rpm, 4°C, 5min</li>
-<li>移动800μL上清至2mL EP管中, 加入800μL甲醇和200μL氯仿, 充分振荡30s, 13000rpm, 4°C, 5min</li>
-<li>小心移去上层(甲醇/水)和下层(氯仿), 不要过分吸上层, 可保留一些</li>
-<li>加入1000μL甲醇, 充分振荡30s, 13000rpm, 4°C, 10min</li>
-<li>移去上清, 晾干(有条件可以真空离心干燥), 但不宜过于干燥, 不易于复溶</li>
-<li>加入40μL 2x loading buffer(蛋白酶抑制剂+), 37°C振荡复溶蛋白, 难以复溶的话可加3%SDS</li>
-<li>100°C煮10min</li>
-</ol>
-
-      
-
-    
-
-  </article>
-
-</div>
-
-
   </main>
   <footer>
     <div class="wrapper">

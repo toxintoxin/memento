@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>VSCode | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel ">
+    <nav class="cat-panel " id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel ">
+    <nav class="cat-panel " id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel ">
+    <nav class="cat-panel " id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel active">
+    <nav class="cat-panel active" id="workflow">
       <ul>
         
 
@@ -923,75 +922,18 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
-
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
-<div class="toc">
-  <b>On this page</b>
-  <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装vscode">安装VSCode</a></li>
-    <li><a href="#vscode设置">VSCode设置</a></li>
-    <li><a href="#在vscode中使用markdown">在VSCode中使用Markdown</a>
-      <ul>
-        <li><a href="#markdown语法">Markdown语法</a></li>
-        <li><a href="#安装插件">安装插件</a></li>
-      </ul>
-    </li>
-    <li><a href="#在vscode中使用r">在VSCode中使用R</a>
-      <ul>
-        <li><a href="#配置r环境以及终端radian">配置R环境以及终端radian</a></li>
-        <li><a href="#赋值和管道符快捷键">赋值和管道符快捷键</a></li>
-      </ul>
-    </li>
-    <li><a href="#快速启动工作区">快速启动工作区</a></li>
-    <li><a href="#reference">reference</a></li>
-  </ul>
-</nav>
-</div>
-
-
-
-<script>
-window.addEventListener('DOMContentLoaded', () => {
-
-  const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      const id = entry.target.getAttribute('id');
-      if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
-      } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
-      }
-    });
-  });
-
-  
-  document.querySelectorAll('section[id]').forEach((section) => {
-    observer.observe(section);
-  });
-  
-});
-</script>
-
-</aside>
-
-<div class="content-container">
-
+    <div class="main-container">
   <article class="content">
 
-    
-      <h1>VSCode</h1>
-      <span style="color: gray">Last updated: 
+  
+    <p style="color: gray">Last updated: 
 
 <time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <p>Visual Studio Code是</p>
+</p>
+    <h1>VSCode</h1>
+    <p>Visual Studio Code是</p>
 <h2 id="安装vscode">安装VSCode</h2>
-<p>前往{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://code.visualstudio.com" target="_blank">https://code.visualstudio.com</a>
-下载安装包
+<p>前往{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://code.visualstudio.com">https://code.visualstudio.com</a>下载安装包
 均默认安装</p>
 <h2 id="vscode设置">VSCode设置</h2>
 <p><code>Ctrl+,</code>打开设置<br>
@@ -1065,20 +1007,14 @@ window.addEventListener('DOMContentLoaded', () => {
 <p><code>Paste Image</code>快速从剪贴板粘贴图片到md</p>
 <p><code>Paste Image</code>用<code>Ctrl+alt+v</code>粘贴图片<br>
 可以打开<code>settings.json</code>添加以下自定义设置</p>
-<p>更多自定义设置可以参考{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://github.com/mushanshitiancai/vscode-paste-image" target="_blank">https://github.com/mushanshitiancai/vscode-paste-image</a>
-</p>
+<p>更多自定义设置可以参考{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://github.com/mushanshitiancai/vscode-paste-image">https://github.com/mushanshitiancai/vscode-paste-image</a></p>
 <h4 id="非必要">非必要</h4>
 <p><code>Markmap</code>生成思维导图</p>
 <h2 id="在vscode中使用r">在VSCode中使用R</h2>
 <h3 id="配置r环境以及终端radian">配置R环境以及终端radian</h3>
 <h4 id="不使用anaconda">不使用Anaconda</h4>
 <h5 id="安装r">安装R</h5>
-<p>{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://cran.r-project.org" target="_blank">https://cran.r-project.org</a>
-
+<p>{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://cran.r-project.org">https://cran.r-project.org</a>
 -&gt; Download R for Windows
 -&gt; base
 -&gt; Download R-4.x.x for Windows
@@ -1099,20 +1035,14 @@ window.addEventListener('DOMContentLoaded', () => {
 <p>不安装也能在VSCode中用R了，但是没有语法高亮和自动补全，即原生的R，很难用
 VSCode+R+radian就相当于RStudio</p>
 <p>radian安装依赖于python，需要先安装python<br>
-python下载安装{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://www.python.org/downloads" target="_blank">https://www.python.org/downloads</a>
-<br>
+python下载安装{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://www.python.org/downloads">https://www.python.org/downloads</a><br>
 安装的时候记得勾选添加到环境变量中<br>
 <code>win+R</code>输入<code>cmd</code>，直接运行</p>
 <h5 id="settingsjson必要的配置">settings.json必要的配置</h5>
 <p><code>Ctrl+,</code>打开设置，点击右上角编辑<code>settings.json</code></p>
 <h4 id="配合anaconda管理环境">配合Anaconda管理环境</h4>
 <h5 id="安装anaconda">安装Anaconda</h5>
-<p>前往{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://www.anaconda.com/download" target="_blank">https://www.anaconda.com/download</a>
-下载安装包
+<p>前往{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a>下载安装包
 均默认安装
 以下内容以安装在<code>D:\Anaconda3</code>作为演示</p>
 <ul>
@@ -1132,16 +1062,10 @@ python下载安装{# https://github.com/bep/portable-hugo-links/blob/master/layo
 </li>
 </ul>
 <h5 id="新建虚拟环境安装r和radian">新建虚拟环境安装R和radian</h5>
-<p>ref: {# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://blog.csdn.net/Y1575071736/article/details/120692120" target="_blank">https://blog.csdn.net/Y1575071736/article/details/120692120</a>
-
+<p>ref: {# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://blog.csdn.net/Y1575071736/article/details/120692120">https://blog.csdn.net/Y1575071736/article/details/120692120</a>
 <code>开始菜单</code>-&gt;<code>Anaconda3</code>-&gt;<code>Anaconda Prompt</code></p>
 <p>创建名为<code>r_env</code>的虚拟环境</p>
-<p>安装R和radian (截止到2023年7月, conda R win-64 只更新到4.1.3, 这里可以查看{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://anaconda.org/conda-forge/r-base" target="_blank">https://anaconda.org/conda-forge/r-base</a>
-，虽然不是最新的，但也没有问题)</p>
+<p>安装R和radian (截止到2023年7月, conda R win-64 只更新到4.1.3, 这里可以查看{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://anaconda.org/conda-forge/r-base">https://anaconda.org/conda-forge/r-base</a>，虽然不是最新的，但也没有问题)</p>
 <p>再将其添加到环境变量中<br>
 <code>win+R</code>输入<code>sysdm.cpl</code><br>
 -&gt; 高级<br>
@@ -1159,20 +1083,67 @@ python下载安装{# https://github.com/bep/portable-hugo-links/blob/master/layo
 code &ldquo;path of folder&rdquo; | exit</p>
 <h2 id="reference">reference</h2>
 <p>Windows 10 + Anaconda + r-base +Radian（terminated with exit code: 1）R 环境配置终极解决方案
-{# https://github.com/bep/portable-hugo-links/blob/master/layouts/_default/_markup/render-link.html #}
-
-<a href="https://blog.csdn.net/Y1575071736/article/details/120692120" target="_blank">https://blog.csdn.net/Y1575071736/article/details/120692120</a>
-</p>
-
-      
+{# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://blog.csdn.net/Y1575071736/article/details/120692120">https://blog.csdn.net/Y1575071736/article/details/120692120</a></p>
 
     
 
-  </article>
+  
 
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
+<div class="toc">
+  <p>On this page</p>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#安装vscode">安装VSCode</a></li>
+    <li><a href="#vscode设置">VSCode设置</a></li>
+    <li><a href="#在vscode中使用markdown">在VSCode中使用Markdown</a>
+      <ul>
+        <li><a href="#markdown语法">Markdown语法</a></li>
+        <li><a href="#安装插件">安装插件</a></li>
+      </ul>
+    </li>
+    <li><a href="#在vscode中使用r">在VSCode中使用R</a>
+      <ul>
+        <li><a href="#配置r环境以及终端radian">配置R环境以及终端radian</a></li>
+        <li><a href="#赋值和管道符快捷键">赋值和管道符快捷键</a></li>
+      </ul>
+    </li>
+    <li><a href="#快速启动工作区">快速启动工作区</a></li>
+    <li><a href="#reference">reference</a></li>
+  </ul>
+</nav>
 </div>
 
 
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
+      const id = entry.target.getAttribute('id');
+      if (entry.intersectionRatio > 0) {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+      } else {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+      }
+    });
+  });
+
+  
+  document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+  });
+  
+});
+</script>
+
+</aside>
   </main>
   <footer>
     <div class="wrapper">

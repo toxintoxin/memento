@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>复杂热图用ComplexHeatmap | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel ">
+    <nav class="cat-panel " id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel active">
+    <nav class="cat-panel active" id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel ">
+    <nav class="cat-panel " id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel ">
+    <nav class="cat-panel " id="workflow">
       <ul>
         
 
@@ -923,11 +922,28 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
+    <div class="main-container">
+  <article class="content">
 
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
+  
+    <p style="color: gray">Last updated: 
+
+<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
+</p>
+    <h1>复杂热图用ComplexHeatmap</h1>
+    <p>faklsjdlkfj</p>
+
+    
+
+  
+
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
 <div class="toc">
-  <b>On this page</b>
+  <p>On this page</p>
   <nav id="TableOfContents"></nav>
 </div>
 
@@ -938,11 +954,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
       const id = entry.target.getAttribute('id');
       if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
       } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
       }
     });
   });
@@ -956,28 +973,6 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 </aside>
-
-<div class="content-container">
-
-  <article class="content">
-
-    
-      <h1>复杂热图用ComplexHeatmap</h1>
-      <span style="color: gray">Last updated: 
-
-<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <p>faklsjdlkfj</p>
-
-      
-
-    
-
-  </article>
-
-</div>
-
-
   </main>
   <footer>
     <div class="wrapper">

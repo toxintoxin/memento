@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <title>TCA | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.a008619af972e257e38ab18f128938cd69f6e5b2a602242f47e9fcd0b1faf4bf.css" integrity="sha256-oAhhmvly4lfjirGPEok4zWn25bKmAiQvR&#43;n80LH69L8=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
 
 
         <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
@@ -50,8 +50,7 @@
 
   </header>
   <main>
-    
-  <aside class="sidebar-left">
+    <aside class="sidebar-left">
   
 
 
@@ -108,7 +107,7 @@
 
   
     
-    <nav id="fastlab" class="cat-panel ">
+    <nav class="cat-panel " id="fastlab">
       <ul>
         
 
@@ -137,7 +136,7 @@
     </nav>
   
     
-    <nav id="lab" class="cat-panel active">
+    <nav class="cat-panel active" id="lab">
       <ul>
         
 
@@ -497,7 +496,7 @@
     </nav>
   
     
-    <nav id="mess" class="cat-panel ">
+    <nav class="cat-panel " id="mess">
       <ul>
         
 
@@ -632,7 +631,7 @@
     </nav>
   
     
-    <nav id="r" class="cat-panel ">
+    <nav class="cat-panel " id="r">
       <ul>
         
 
@@ -762,7 +761,7 @@
     </nav>
   
     
-    <nav id="shiny" class="cat-panel ">
+    <nav class="cat-panel " id="shiny">
       <ul>
         
 
@@ -812,7 +811,7 @@
     </nav>
   
     
-    <nav id="workflow" class="cat-panel ">
+    <nav class="cat-panel " id="workflow">
       <ul>
         
 
@@ -923,11 +922,38 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 </aside>
+    <div class="main-container">
+  <article class="content">
 
-<aside class="sidebar-right">
-  <button class="toc-toggle">TABLEOFCONTENTS</button>
+  
+    <p style="color: gray">Last updated: 
+
+<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
+</p>
+    <h1>TCA</h1>
+    <blockquote>
+<p>提取液：80%甲醇/20%水(置于干冰上冷冻！！！)</p></blockquote>
+<ol>
+<li>以六孔板细胞为例，置于干冰上！！！用冰PBS洗两次，加入提取液（80%甲醇/20%水）500μL/孔，用细胞刮收细胞至2ml Eppendorf管里。（PBS洗最好在干冰上，不方便操作也可以在hood里快速用冷PBS洗完，然后一定要放在干冰上加遇冷提取液；加入遇冷提取液后可以就在hood里轻晃一下孔板然后在干冰上刮细胞，或者加入遇冷提取液后放在干冰上拿出细胞房再刮细胞。）</li>
+<li>Vortex涡旋混合1 min。</li>
+<li>室温振荡20 min。</li>
+<li>将样品置于-20℃冷冻柜中保存60 min。</li>
+<li>在4℃下将样品以18407xg离心10 min。【我们的小4度离心机最大17000g，10min】</li>
+<li>将上清液转移至1.5mL离心管中【用普伦的无酶的1.5ep管】，取出5ul留做BCA，用三楼离心浓缩装置进行浓缩大约2h【参数设定：不加热(NO)，手动开启，1-2h看一次】。（六孔板浓缩后看不到太多，6cmDISH和10cmDISH浓缩后可以看到很多白色物质）</li>
+<li>用50μL 50%乙睛/50%水 复溶样品，短暂的涡旋混合，在4℃下放置10 min，随后在4℃下以18407xg离心10 min。用移液器将样品转移至进样瓶中立即分析(TSQ)，或存-80℃。</li>
+</ol>
+
+    
+
+  
+
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="toc-toggle">TEST BUTTON</button>
 <div class="toc">
-  <b>On this page</b>
+  <p>On this page</p>
   <nav id="TableOfContents"></nav>
 </div>
 
@@ -938,11 +964,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
       const id = entry.target.getAttribute('id');
       if (entry.intersectionRatio > 0) {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
       } else {
-        document.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
       }
     });
   });
@@ -956,38 +983,6 @@ window.addEventListener('DOMContentLoaded', () => {
 </script>
 
 </aside>
-
-<div class="content-container">
-
-  <article class="content">
-
-    
-      <h1>TCA</h1>
-      <span style="color: gray">Last updated: 
-
-<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
-</span>
-      <blockquote>
-<p>提取液：80%甲醇/20%水(置于干冰上冷冻！！！)</p></blockquote>
-<ol>
-<li>以六孔板细胞为例，置于干冰上！！！用冰PBS洗两次，加入提取液（80%甲醇/20%水）500μL/孔，用细胞刮收细胞至2ml Eppendorf管里。（PBS洗最好在干冰上，不方便操作也可以在hood里快速用冷PBS洗完，然后一定要放在干冰上加遇冷提取液；加入遇冷提取液后可以就在hood里轻晃一下孔板然后在干冰上刮细胞，或者加入遇冷提取液后放在干冰上拿出细胞房再刮细胞。）</li>
-<li>Vortex涡旋混合1 min。</li>
-<li>室温振荡20 min。</li>
-<li>将样品置于-20℃冷冻柜中保存60 min。</li>
-<li>在4℃下将样品以18407xg离心10 min。【我们的小4度离心机最大17000g，10min】</li>
-<li>将上清液转移至1.5mL离心管中【用普伦的无酶的1.5ep管】，取出5ul留做BCA，用三楼离心浓缩装置进行浓缩大约2h【参数设定：不加热(NO)，手动开启，1-2h看一次】。（六孔板浓缩后看不到太多，6cmDISH和10cmDISH浓缩后可以看到很多白色物质）</li>
-<li>用50μL 50%乙睛/50%水 复溶样品，短暂的涡旋混合，在4℃下放置10 min，随后在4℃下以18407xg离心10 min。用移液器将样品转移至进样瓶中立即分析(TSQ)，或存-80℃。</li>
-</ol>
-
-      
-
-    
-
-  </article>
-
-</div>
-
-
   </main>
   <footer>
     <div class="wrapper">
