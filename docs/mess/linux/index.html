@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width">
 <title>linux | JY MEMENTO</title>
 
-      <link rel="stylesheet" href="/memento/css/main.min.381e0da3e67a4b9ec3527f5ffa6ab60635df424507e790e3cc0c432c48985fc9.css" integrity="sha256-OB4No&#43;Z6S57DUn9f&#43;mq2BjXfQkUH55DjzAxDLEiYX8k=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/memento/css/main.min.742b455969e51ad867543f734ed2ead0c36d4413ccb82f6c81c2251a9bef02c4.css" integrity="sha256-dCtFWWnlGthnVD9zTtLq0MNtRBPMuC9sgcIlGpvvAsQ=" crossorigin="anonymous">
 
 
-        <script src="/memento/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js" integrity="sha256-I80MfYNyY7nq65buLZzPopadqj&#43;gD6HB/ocBqbhyUaE=" crossorigin="anonymous"></script>
+        <script src="/memento/js/main.7f73b1a2bf086d8140d4c6c68225e372d0374535de7479fcac66afd9e3ef8c07.js" integrity="sha256-f3Oxor8IbYFA1MbGgiXjctA3RTXedHn8rGav2ePvjAc=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -53,63 +53,75 @@
     <aside class="sidebar-left">
   
 
-
 <div class="cat-tabs">
 
   
     
     
-    <div class="cat-tab " data-panel="fastlab">
+    
+    <button class="cat-tab " data-panel="fastlab">
+      <span class="status-indicator"></span>
       Fastlab
       <span> #2</span>
-    </div>
+    </button>
   
     
     
-    <div class="cat-tab " data-panel="lab">
+    
+    <button class="cat-tab " data-panel="lab">
+      <span class="status-indicator"></span>
       Lab
       <span> #45</span>
-    </div>
+    </button>
   
     
     
-    <div class="cat-tab active" data-panel="mess">
+    
+    <button class="cat-tab active" data-panel="mess">
+      <span class="status-indicator"></span>
       Mess
       <span> #15</span>
-    </div>
+    </button>
   
     
     
-    <div class="cat-tab " data-panel="r">
+    
+    <button class="cat-tab " data-panel="r">
+      <span class="status-indicator"></span>
       R
       <span> #10</span>
-    </div>
+    </button>
   
     
     
-    <div class="cat-tab " data-panel="shiny">
+    
+    <button class="cat-tab " data-panel="shiny">
+      <span class="status-indicator"></span>
       Shiny
       <span> #5</span>
-    </div>
+    </button>
   
     
     
-    <div class="cat-tab " data-panel="workflow">
+    
+    <button class="cat-tab " data-panel="workflow">
+      <span class="status-indicator"></span>
       Workflow
       <span> #8</span>
-    </div>
+    </button>
   
 
 </div>
 
 
-<div class="cat-panels">
-
-  
+<nav class="cat-panels">
+  <ul>
     
-    <nav class="cat-panel " id="fastlab">
-      <ul>
-        
+      
+      
+      <li class="cat-panel " id="fastlab">
+        <ul>
+          
 
   
   
@@ -132,20 +144,21 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
     
-    <nav class="cat-panel " id="lab">
-      <ul>
-        
+      
+      
+      <li class="cat-panel " id="lab">
+        <ul>
+          
 
   
   
 
   
     <li>
-      <span class="cat-tree-section">Note</span>
+      <a class="cat-tree-section">Note</a>
       <ul>
         
 
@@ -181,7 +194,7 @@
     </li>
   
     <li>
-      <span class="cat-tree-section">Protocol</span>
+      <a class="cat-tree-section">Protocol</a>
       <ul>
         
 
@@ -492,20 +505,21 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
     
-    <nav class="cat-panel active" id="mess">
-      <ul>
-        
+      
+      
+      <li class="cat-panel active" id="mess">
+        <ul>
+          
 
   
   
 
   
     <li>
-      <span class="cat-tree-section">Static Site Generation</span>
+      <a class="cat-tree-section">Static Site Generation</a>
       <ul>
         
 
@@ -627,11 +641,21 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
     
-    <nav class="cat-panel " id="r">
+      
+      
+      <li class="cat-panel " id="r">
+        <ul>
+          
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">Ggplot2 Templates</a>
       <ul>
         
 
@@ -640,16 +664,7 @@
 
   
     <li>
-      <span class="cat-tree-section">Ggplot2 Templates</span>
-      <ul>
-        
-
-  
-  
-
-  
-    <li>
-      <span class="cat-tree-section">柱状图</span>
+      <a class="cat-tree-section">柱状图</a>
       <ul>
         
 
@@ -671,7 +686,7 @@
     </li>
   
     <li>
-      <span class="cat-tree-section">热图</span>
+      <a class="cat-tree-section">热图</a>
       <ul>
         
 
@@ -757,13 +772,14 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
     
-    <nav class="cat-panel " id="shiny">
-      <ul>
-        
+      
+      
+      <li class="cat-panel " id="shiny">
+        <ul>
+          
 
   
   
@@ -807,13 +823,14 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
     
-    <nav class="cat-panel " id="workflow">
-      <ul>
-        
+      
+      
+      <li class="cat-panel " id="workflow">
+        <ul>
+          
 
   
   
@@ -878,11 +895,13 @@
   
 
 
-      </ul>
-    </nav>
-  
+        </ul>
+      </li>
+    
+  </ul>
 
-</div>
+
+</nav>
 
 
 
@@ -918,8 +937,26 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
+
 });
+
+
+document.querySelectorAll(".cat-panel li:has(ul) > a").forEach(a => {
+  a.addEventListener("click", function (e) {
+
+    let li = this.parentElement;
+
+    
+    li.classList.toggle("open");
+
+  });
+});
+
+
 </script>
+
+
+
 
 </aside>
     <div class="main-container">
