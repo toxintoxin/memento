@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JY MEMENTO</title>
-    <link>https://toxintoxin.github.io/memento/posts/2023/</link>
+    <link>https://www.jiayong.org/posts/2023/</link>
     <description>Recent content on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://toxintoxin.github.io/memento/posts/2023/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jiayong.org/posts/2023/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023→2024, 在杭州跨年</title>
-      <link>https://toxintoxin.github.io/memento/posts/2023/12/31/hangzhou-kuanian/</link>
+      <link>https://www.jiayong.org/posts/2023/12/31/hangzhou-kuanian/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://toxintoxin.github.io/memento/posts/2023/12/31/hangzhou-kuanian/</guid>
+      <guid>https://www.jiayong.org/posts/2023/12/31/hangzhou-kuanian/</guid>
       <description></description>
     </item>
     <item>
       <title>My iPhone SE 2 broke</title>
-      <link>https://toxintoxin.github.io/memento/posts/2023/10/08/iphone-se-2/</link>
+      <link>https://www.jiayong.org/posts/2023/10/08/iphone-se-2/</link>
       <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://toxintoxin.github.io/memento/posts/2023/10/08/iphone-se-2/</guid>
+      <guid>https://www.jiayong.org/posts/2023/10/08/iphone-se-2/</guid>
       <description></description>
     </item>
     <item>
       <title>天目七尖</title>
-      <link>https://toxintoxin.github.io/memento/posts/2023/05/04/tianmu/</link>
+      <link>https://www.jiayong.org/posts/2023/05/04/tianmu/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://toxintoxin.github.io/memento/posts/2023/05/04/tianmu/</guid>
+      <guid>https://www.jiayong.org/posts/2023/05/04/tianmu/</guid>
       <description></description>
     </item>
   </channel>

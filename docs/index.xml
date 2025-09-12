@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on JY MEMENTO</title>
-    <link>https://toxintoxin.github.io/memento/docs/</link>
+    <link>https://www.jiayong.org/docs/</link>
     <description>Recent content in Notes on JY MEMENTO</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://toxintoxin.github.io/memento/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.jiayong.org/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

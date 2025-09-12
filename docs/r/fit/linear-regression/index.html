@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Linear Regression | JY MEMENTO</title>
+
+      <link rel="stylesheet" href="/css/main.min.e3e3e124e07a398c0ee2e0bc6f0e44c13e2559b3b7632876cf643f982d117b36.css" integrity="sha256-4&#43;PhJOB6OYwO4uC8bw5EwT4lWbO3Yyh2z2Q/mC0RezY=" crossorigin="anonymous">
+
+
+        <script src="/js/main.17ed9db9b7273c8da27c0a3abee87aa4a748d07904407416c38ad905c14e216e.js" integrity="sha256-F&#43;2dubcnPI2ifAo6vuh6pKdI0HkEQHQWw4rZBcFOIW4=" crossorigin="anonymous"></script>
+
+
+</head>
+<body class=" background-image" style="background-image: url('/Paper-Texture-8-1536x1152.jpg'); background-size: auto; background-attachment: fixed; background-position: top left;" >
+  <header>
+    <div class="wrapper">
+  
+  <a href="/" class="site-brand">
+    
+      <img class="site-logo" src="/logo.png" alt="Logo">
+    
+    <span class="site-title">JY MEMENTO</span>
+  </a>
+  
+  <nav>
+    <button class="menu-toggle" aria-label="Toggle menu">
+      &#9776; 
+    </button>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/docs/">Notes</a>
+    </li>
+    <li>
+      <a href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/ephemera/">Ephemera</a>
+    </li>
+    <li>
+      <a href="/gallery/">Gallery</a>
+    </li>
+    <li>
+      <a href="/projects/">Projects</a>
+    </li>
+    <li>
+      <a href="/about/">About</a>
+    </li>
+    </ul>
+  </nav>
+
+</div>
+
+  </header>
+  <main>
+    <aside class="sidebar-left">
+  
+
+<div class="cat-tabs">
+
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="fastlab">
+      <span class="status-indicator"></span>
+      Fastlab
+      <span> #2</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="lab">
+      <span class="status-indicator"></span>
+      Lab
+      <span> #45</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="mess">
+      <span class="status-indicator"></span>
+      Mess
+      <span> #15</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="python">
+      <span class="status-indicator"></span>
+      Python
+      <span> #1</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab active" data-panel="r">
+      <span class="status-indicator"></span>
+      R
+      <span> #10</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="shiny">
+      <span class="status-indicator"></span>
+      Shiny
+      <span> #5</span>
+    </button>
+  
+    
+    
+    
+    <button class="cat-tab " data-panel="workflow">
+      <span class="status-indicator"></span>
+      Workflow
+      <span> #9</span>
+    </button>
+  
+
+</div>
+
+
+<nav class="cat-panels">
+  <ul>
+    
+      
+      
+      <li class="cat-panel " id="fastlab">
+        <ul>
+          
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/fastlab/oldstart/"
+        class="">
+        启动项目
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/fastlab/start/"
+        class="">
+        开始
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel " id="lab">
+        <ul>
+          
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">Note</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/lab/note/lipid-abbr/"
+        class="">
+        abbreviation
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/note/mrmlist/"
+        class="">
+        MRM list reference
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/note/triacylglycerol-profiling/"
+        class="">
+        triacylglycerol profiling
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+    <li>
+      <a class="cat-tree-section">Protocol</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/lab/protocol/3ple/"
+        class="">
+        3PLE
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/accucore-c30/"
+        class="">
+        Accucore™ C30
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/atgl-dgat/"
+        class="">
+        ATGL DGAT
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/biotin-pulldown/"
+        class="">
+        biotin pulldown
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/bmdm-isolation/"
+        class="">
+        BMDM isolation
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/bp-pacfa-protocol-v2/"
+        class="">
+        BP-pacFA protocol version 2
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/bp-pacfa-protocol/"
+        class="">
+        BP-pacFA-protocol
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/cell-culture/"
+        class="">
+        Cell Culture
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/click-imaging/"
+        class="">
+        click imaging
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/coating/"
+        class="">
+        Coating
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/coverslip/"
+        class="">
+        Coverslip
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/direct-injection/"
+        class="">
+        Direct Injection
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/eicosanoids-method/"
+        class="">
+        Eicosanoids method
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/immunofluorescence/"
+        class="">
+        Immunofluorescence
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/in-gel-fluorescence/"
+        class="">
+        In-gel Fluorescence
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/lipid-droplet-isolation/"
+        class="">
+        Lipid droplet isolation
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/lipidomics-sciex/"
+        class="">
+        lipidocmis sciex
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/master/"
+        class="">
+        Lipidomic analysis: Yeast, Mammals and Worms
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/lipidomics/"
+        class="">
+        Lipidomics
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/liver-brain-plasma/"
+        class="">
+        Liver, Brain, Plasma
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/lysates-click/"
+        class="">
+        lysates click reaction
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/ms-method-ref/"
+        class="">
+        mass spectrometry reference
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/metabolomics/"
+        class="">
+        Metabolomics mammalian cells
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/preparation-of-istd/"
+        class="">
+        Preparation of istd of lipidomics
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/protein-extraction/"
+        class="">
+        protein extraction
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/reagent/"
+        class="">
+        Reagent
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/real-time-pcr/"
+        class="">
+        Real-time PCR
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/serum-delipidation/"
+        class="">
+        Serum de-lipidation
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/sirna-transfection/"
+        class="">
+        siRNA transfection
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/surface-biotinylation/"
+        class="">
+        Surface Biotinylation Assay
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/svf-mod/"
+        class="">
+        SVF isolation (modified)
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/svf-gupta/"
+        class="">
+        SVF isolation (original)
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/tca/"
+        class="">
+        TCA
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/western-blot/"
+        class="">
+        Western Blot
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/phos/"
+        class="">
+        磷的标定
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/tissue-grinding/"
+        class="">
+        组织研磨
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/coomassie/"
+        class="">
+        考马斯亮蓝染色
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/lipidomics-opti/"
+        class="">
+        脂质组学尚可优化
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/protocol/super-cent/"
+        class="">
+        超离步骤
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+  
+    <li>
+      <a href="/docs/lab/paperformatting/"
+        class="">
+        Paper formatting
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/website/"
+        class="">
+        构建实验室网站，基于docusaurus
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/lab/data-analysis/"
+        class="">
+        模型拟合
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel " id="mess">
+        <ul>
+          
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">Static Site Generation</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/mess/static-site-generation/docsify/"
+        class="">
+        docsify
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/static-site-generation/docusaurus/"
+        class="">
+        docusaurus
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/static-site-generation/vitepress/"
+        class="">
+        vitepress
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/static-site-generation/hugo/"
+        class="">
+        从0构建hugo个人博客
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+  
+    <li>
+      <a href="/docs/mess/camera/"
+        class="">
+        35mm机械单反
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/beef/"
+        class="">
+        beef
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/cellranger/"
+        class="">
+        CellRanger
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/greek-alphabet/"
+        class="">
+        Greek alphabet
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/linux/"
+        class="">
+        linux
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/markdown-test/"
+        class="">
+        markdown test
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/negativelabpro/"
+        class="">
+        Negative Lab Pro
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/trainspotting/"
+        class="">
+        trainspotting
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/ubuntu/"
+        class="">
+        Ubuntu
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/vmware/"
+        class="">
+        VMware
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/mess/sea-salt-cheese-foam/"
+        class="">
+        海盐芝士奶盖
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel " id="python">
+        <ul>
+          
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/python/virtual-environment/"
+        class="">
+        Virtual Environment
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel active" id="r">
+        <ul>
+          
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">Fit</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/r/fit/linear-regression/"
+        class="active">
+        Linear Regression
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+    <li>
+      <a class="cat-tree-section">Ggplot2 Templates</a>
+      <ul>
+        
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">柱状图</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/r/ggplot2-templates/%E6%9F%B1%E7%8A%B6%E5%9B%BE/nihe/"
+        class="">
+        fit
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+    <li>
+      <a class="cat-tree-section">sdjlfkjskldfjkl</a>
+      <ul>
+        
+
+  
+  
+
+  
+    <li>
+      <a class="cat-tree-section">复杂热图用ComplexHeatmap</a>
+      <ul>
+        
+
+  
+  
+
+  
+  
+
+
+      </ul>
+    </li>
+  
+  
+    <li>
+      <a href="/docs/r/ggplot2-templates/%E7%83%AD%E5%9B%BE/pheatmap/"
+        class="">
+        用pheatmap
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+  
+    <li>
+      <a href="/docs/r/ggplot2-templates/point-plot/"
+        class="">
+        point-plot
+      </a>
+    </li>
+  
+
+
+      </ul>
+    </li>
+  
+  
+    <li>
+      <a href="/docs/r/bio-stat/"
+        class="">
+        bio stat
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/r/ggplot2/"
+        class="">
+        ggplot2
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/r/ggplot2-pretty/"
+        class="">
+        ggplot2 pretty
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/r/r-intro/"
+        class="">
+        r intro
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/r/tips/"
+        class="">
+        R tips
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/r/palette/"
+        class="">
+        配色
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel " id="shiny">
+        <ul>
+          
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/shiny/share/"
+        class="">
+        share
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/shiny/shiny-server/"
+        class="">
+        shiny-server
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/shiny/shinyapps/"
+        class="">
+        shinyapps.io
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/shiny/shinyproxy/"
+        class="">
+        shinyproxy
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/shiny/shiny-as-r-package/"
+        class="">
+        把shiny应用作为R包开发
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+      
+      
+      <li class="cat-panel " id="workflow">
+        <ul>
+          
+
+  
+  
+
+  
+  
+    <li>
+      <a href="/docs/workflow/edge/"
+        class="">
+        Edge
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/git/"
+        class="">
+        git
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/pc-settings/"
+        class="">
+        PC settings
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/ssr/"
+        class="">
+        SSR
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/vscode/"
+        class="">
+        VSCode
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/zotero/"
+        class="">
+        Zotero
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/r-vscode/"
+        class="">
+        在vscode里使用R
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/project-management/"
+        class="">
+        科研项目的文件夹管理
+      </a>
+    </li>
+  
+    <li>
+      <a href="/docs/workflow/v2ray/"
+        class="">
+        自建v2ray服务器教程
+      </a>
+    </li>
+  
+
+
+        </ul>
+      </li>
+    
+  </ul>
+
+
+</nav>
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const tabs = document.querySelectorAll(".cat-tab");
+  const panels = document.querySelectorAll(".cat-panel");
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+
+      const path = window.location.pathname;
+      const match = path.match(/\/docs\/([^\/]+)/);
+      const section = match ? match[1] : null;
+      const backgroundTab = document.querySelector(`.cat-tab[data-panel="${section}"]`);
+      if (backgroundTab) {
+        backgroundTab.classList.add("background");
+      }
+
+      
+      tabs.forEach(t => t.classList.remove("active"));
+      panels.forEach(p => p.classList.remove("active"));
+
+      
+      if (tab.classList.contains("background")) {
+        tab.classList.remove("background");
+      }
+      tab.classList.add("active");
+      const panelId = tab.getAttribute("data-panel");
+      document.getElementById(panelId).classList.add("active");
+
+    });
+  });
+
+
+});
+
+
+document.querySelectorAll(".cat-panel li:has(ul) > a").forEach(a => {
+  a.addEventListener("click", function (e) {
+
+    let li = this.parentElement;
+
+    
+    li.classList.toggle("open");
+
+  });
+});
+
+
+</script>
+
+
+
+
+</aside>
+    <div class="main-container">
+  <article class="content">
+
+  Linear Regression
+  D:/jiayong/my-website/memento/content/docs/r/fit/_index.md
+  D:/jiayong/my-website/memento/content/docs/_index.md
+  page
+  
+    <p style="color: gray">Last updated: 
+
+<time datetime="2025-09-12T00:00:00&#43;00:00">September 12, 2025</time>
+</p>
+    <h1>Linear Regression</h1>
+    <p>ref: {# https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/_markup/render-link.html #}<a href="https://rpubs.com/russH/378543">[label](https://rpubs.com/russH/378543)</a></p>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(magrittr)
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">library</span>(ggplot2)
+</span></span></code></pre></div></details>
+<h2 id="dataset">dataset</h2>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">head</span>(cars)
+</span></span></code></pre></div></details>
+<pre><code>  speed dist
+1     4    2
+2     4   10
+3     7    4
+4     7   22
+5     8   16
+6     9   10
+</code></pre>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(cars, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> speed, y <span style="color:#f92672">=</span> dist)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_point</span>()
+</span></span></code></pre></div></details>
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-2-1.png" width="768" />
+<h2 id="linear-model">linear model</h2>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># set fit model</span>
+</span></span><span style="display:flex;"><span>linear_model <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">lm</span>(dist <span style="color:#f92672">~</span> speed, data <span style="color:#f92672">=</span> cars)
+</span></span></code></pre></div></details>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># view the summary</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">summary</span>(linear_model)
+</span></span></code></pre></div></details>
+<pre><code>Call:
+lm(formula = dist ~ speed, data = cars)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-29.069  -9.525  -2.272   9.215  43.201 
+
+Coefficients:
+            Estimate Std. Error t value Pr(&gt;|t|)    
+(Intercept) -17.5791     6.7584  -2.601   0.0123 *  
+speed         3.9324     0.4155   9.464 1.49e-12 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 15.38 on 48 degrees of freedom
+Multiple R-squared:  0.6511,    Adjusted R-squared:  0.6438 
+F-statistic: 89.57 on 1 and 48 DF,  p-value: 1.49e-12
+</code></pre>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># predict distance</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">predict</span>(linear_model)
+</span></span></code></pre></div></details>
+<pre><code>        1         2         3         4         5         6         7         8 
+-1.849460 -1.849460  9.947766  9.947766 13.880175 17.812584 21.744993 21.744993 
+        9        10        11        12        13        14        15        16 
+21.744993 25.677401 25.677401 29.609810 29.609810 29.609810 29.609810 33.542219 
+       17        18        19        20        21        22        23        24 
+33.542219 33.542219 33.542219 37.474628 37.474628 37.474628 37.474628 41.407036 
+       25        26        27        28        29        30        31        32 
+41.407036 41.407036 45.339445 45.339445 49.271854 49.271854 49.271854 53.204263 
+       33        34        35        36        37        38        39        40 
+53.204263 53.204263 53.204263 57.136672 57.136672 57.136672 61.069080 61.069080 
+       41        42        43        44        45        46        47        48 
+61.069080 61.069080 61.069080 68.933898 72.866307 76.798715 76.798715 76.798715 
+       49        50 
+76.798715 80.731124 
+</code></pre>
+<details class="code-fold">
+<summary>Code</summary>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-r" data-lang="r"><span style="display:flex;"><span><span style="color:#75715e"># create a smooth line</span>
+</span></span><span style="display:flex;"><span>additional_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">data.frame</span>(
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e"># This gives a sequence of 100 evenly spaced values between 0 and 25</span>
+</span></span><span style="display:flex;"><span>  speed <span style="color:#f92672">=</span> <span style="color:#a6e22e">seq</span>(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">25</span>, length.out <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>)
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>linear_smooth <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">predict</span>(linear_model, newdata <span style="color:#f92672">=</span> additional_data)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>linear_fitted_data <span style="color:#f92672">&lt;-</span> <span style="color:#a6e22e">data.frame</span>(
+</span></span><span style="display:flex;"><span>  additional_data,
+</span></span><span style="display:flex;"><span>  dist <span style="color:#f92672">=</span> linear_smooth
+</span></span><span style="display:flex;"><span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">ggplot</span>(cars, <span style="color:#a6e22e">aes</span>(x <span style="color:#f92672">=</span> speed, y <span style="color:#f92672">=</span> dist)) <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_point</span>() <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">geom_line</span>(data <span style="color:#f92672">=</span> linear_fitted_data)
+</span></span></code></pre></div></details>
+<img src="index.markdown_strict_files/figure-markdown_strict/unnamed-chunk-6-1.png" width="768" />
+
+    
+
+  
+
+</article>
+
+</div>
+    <aside class="sidebar-right">
+  <button class="fab">☰</button>
+  <div class="toc">
+  <p>On this page</p>
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#dataset">dataset</a></li>
+    <li><a href="#linear-model">linear model</a></li>
+  </ul>
+</nav>
+</div>
+
+
+
+<script>
+window.addEventListener('DOMContentLoaded', () => {
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const toc = document.getElementById("TableOfContents");
+      const id = entry.target.getAttribute('id');
+      if (entry.intersectionRatio > 0) {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.add('focus');
+      } else {
+        toc.querySelector(`a[href="#${id}"]`).parentElement.classList.remove('focus');
+      }
+    });
+  });
+
+  
+  document.querySelectorAll('section[id]').forEach((section) => {
+    observer.observe(section);
+  });
+  
+});
+</script>
+
+</aside>
+  </main>
+  <footer>
+    <div class="wrapper">
+  <p>Copyright 2025 toxintoxin | <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p>
+  <p>Powered by Hugo | Themed by hugo-theme-memento</p>
+</div>
+
+  </footer>
+</body>
+</html>
