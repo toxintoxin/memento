@@ -1,0 +1,55 @@
+---
+lastmod: 2025-09-12
+title: "Linear Regression"
+---
+
+ref: [[label](https://rpubs.com/russH/378543)](https://rpubs.com/russH/378543)
+
+```{r}
+library(magrittr)
+library(ggplot2)
+```
+
+## dataset
+
+```{r}
+head(cars)
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point()
+```
+
+## linear model
+
+```{r}
+# set fit model
+linear_model <- lm(dist ~ speed, data = cars)
+```
+
+```{r}
+# view the summary
+summary(linear_model)
+```
+
+```{r}
+# predict distance
+predict(linear_model)
+```
+
+```{r}
+# create a smooth line
+additional_data <- data.frame(
+  # This gives a sequence of 100 evenly spaced values between 0 and 25
+  speed = seq(0, 25, length.out = 100)
+)
+
+linear_smooth <- predict(linear_model, newdata = additional_data)
+
+linear_fitted_data <- data.frame(
+  additional_data,
+  dist = linear_smooth
+)
+
+ggplot(cars, aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_line(data = linear_fitted_data)
+```

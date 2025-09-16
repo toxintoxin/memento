@@ -1,10 +1,8 @@
 ---
 lastmod: 2025-09-12T00:00:00.000Z
-title: Hello, Quarto
+title: point-plot
 ---
 
-
-## 开头定义变量
 
 <details class="code-fold">
 <summary>Code</summary>

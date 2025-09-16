@@ -1,0 +1,82 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "docs",
+      "path": "[[workspace]]/content/docs"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts"
+    },
+    {
+      "title": "ephemera",
+      "path": "[[workspace]]/content/ephemera"
+    },
+    {
+      "title": "gallery",
+      "path": "[[workspace]]/content/gallery"
+    },
+    {
+      "title": "projects",
+      "path": "[[workspace]]/content/projects"
+    }
+  ],
+  "frontMatter.taxonomy.frontMatterType": "TOML",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "previewPath": null,
+      "fields": [
+        {
+          "title": "Last modified date",
+          "name": "lastmod",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isModifiedDate": true
+        },
+        {
+          "title": "Publishing date",
+          "name": "publishDate",
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Featured image",
+          "name": "featured",
+          "type": "image"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    }
+  ],
+  "frontMatter.panel.actions.disabled": [
+    "openDashboard",
+    "optimizeSlug",
+    "preview",
+    // "startStopServer",
+    "createContent"
+  ],
+  "frontMatter.framework.startCommand": "hugo server -D --themesDir .."
+}

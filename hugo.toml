@@ -1,15 +1,21 @@
-baseURL = 'https://toxintoxin.github.io/memento/'
+baseURL = 'https://www.jiayong.org/'
 languageCode = 'zh'
 title = 'JY MEMENTO'
 
 theme = 'hugo-theme-memento'
+
+# necessary for quarto writing
+ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+[markup.goldmark.renderer]
+unsafe= true
 
 [frontmatter]
   # necessary for extracting date from post filename
   date = [':filename', ':default']
 
 [permalinks]
-  posts = "/posts/:2006/:01/:02/:slug/"
+  [permalinks.page]
+    posts = "/posts/:2006/:01/:02/:slug/"
 
 [menus]
   [[menus.main]]
@@ -28,27 +34,36 @@ theme = 'hugo-theme-memento'
   weight = 30
 
   [[menus.main]]
+  name = "Ephemera"
+  pageRef = "/ephemera"
+  weight = 40
+
+  [[menus.main]]
   name = "Gallery"
   pageRef = "/gallery"
-  weight = 40
+  weight = 50
 
   [[menus.main]]
   name = "Projects"
   pageRef = "/projects"
-  weight = 50
+  weight = 60
 
   [[menus.main]]
   name = "About"
   pageRef = "/about"
-  weight = 60
+  weight = 70
 
 [module]
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
 
-# [[module.imports]]
+[[module.imports]]
 # path = "github.com/imfing/hextra"
+
+# Add the Decap CMS module below, if it has not already been added:
+path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-decap-cms"
+# Other imports here...
 
 [params]
   backgroundImage = "Paper-Texture-8-1536x1152.jpg"
