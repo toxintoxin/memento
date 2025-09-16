@@ -13,6 +13,7 @@ unsafe= true
   date = [':filename', ':default']
 
 [permalinks]
+[permalinks.page]
   posts = "/posts/:2006/:01/:02/:slug/"
 
 [menus]
@@ -32,19 +33,24 @@ unsafe= true
   weight = 30
 
   [[menus.main]]
+  name = "Ephemera"
+  pageRef = "/ephemera"
+  weight = 40
+
+  [[menus.main]]
   name = "Gallery"
   pageRef = "/gallery"
-  weight = 40
+  weight = 50
 
   [[menus.main]]
   name = "Projects"
   pageRef = "/projects"
-  weight = 50
+  weight = 60
 
   [[menus.main]]
   name = "About"
   pageRef = "/about"
-  weight = 60
+  weight = 70
 
 [module]
   [module.hugoVersion]
