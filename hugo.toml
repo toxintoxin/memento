@@ -1,4 +1,4 @@
-baseURL = 'https://toxintoxin.github.io/memento/'
+baseURL = 'https://jiayong.org/'
 languageCode = 'zh'
 title = 'JY MEMENTO'
 
@@ -46,9 +46,6 @@ theme = 'hugo-theme-memento'
   [module.hugoVersion]
     extended = false
     min = '0.146.0'
-
-# [[module.imports]]
-# path = "github.com/imfing/hextra"
 
 [params]
   backgroundImage = "Paper-Texture-8-1536x1152.jpg"

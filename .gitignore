@@ -1,4 +1,6 @@
 public/
 .hugo_build.lock
 
-/.quarto/
+.quarto/
+
+.venv/
