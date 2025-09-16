@@ -1,6 +1,15 @@
 public/
 .hugo_build.lock
 
-.quarto/
+/.quarto/
 
-.venv/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
