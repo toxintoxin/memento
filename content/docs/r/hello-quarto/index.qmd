@@ -1,8 +1,10 @@
 ---
 lastmod: 2025-09-12
-title: "point-plot"
+title: "Hello, Quarto"
 ---
 
+
+## 开头定义变量
 
 ```{r}
 library(ggplot2)

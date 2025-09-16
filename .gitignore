@@ -1,10 +1,4 @@
 public/
 .hugo_build.lock
 
-.venv/
-
 /.quarto/
-
-tests/
-
-.frontmatter/
