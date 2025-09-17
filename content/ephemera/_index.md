@@ -1,3 +1,3 @@
 +++
-title = "Eephemera"
+title = "Ephemera"
 +++
