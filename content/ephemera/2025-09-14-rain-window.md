@@ -1,6 +1,6 @@
 +++
 title = "雨夜的窗"
-date = 2025-09-14T20:15:00+08:00
+publishDate = 2025-09-14T20:15:00
 image = "/images/rain-window.jpg"
 tags = ["日常", "隨手拍", "氛圍"]
 +++

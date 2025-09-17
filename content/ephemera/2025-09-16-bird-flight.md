@@ -1,6 +1,6 @@
 +++
 title = "鳥的飛行"
-date = 2025-09-16T07:30:00+08:00
+publishDate = 2025-09-16T07:30:00
 image = "/images/bird-sky.jpg"
 tags = ["自然"]
 +++
