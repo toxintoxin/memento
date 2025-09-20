@@ -1,5 +1,7 @@
 +++
 title = "我们在追求快乐还是痛苦"
+[params]
+  featured = "images/screenshot_19.png"
 +++
 
 ![alt text](images/screenshot_01.png)

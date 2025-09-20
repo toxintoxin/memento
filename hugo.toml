@@ -12,11 +12,11 @@ unsafe= true
 
 [frontmatter]
   # necessary for extracting date from post filename
-  publishDate = [':filename', ':default']
+  date = [':filename', ':default']
 
 [permalinks]
 [permalinks.page]
-  posts = "/posts/:2006/:01-:02/:slug/"
+  posts = "/posts/:2006/:01:02/:slug/"
 
 [menus]
   [[menus.main]]
@@ -60,5 +60,4 @@ unsafe= true
     min = '0.146.0'
 
 [params]
-  backgroundImage = "Paper-Texture-8-1536x1152.jpg"
   logo = true
