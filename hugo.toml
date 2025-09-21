@@ -2,8 +2,6 @@ baseURL = 'https://jiayong.org/'
 languageCode = 'zh'
 title = 'JY MEMENTO'
 
-timeZone = "Asia/Shanghai"
-
 theme = 'hugo-theme-memento'
 
 ignoreFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
