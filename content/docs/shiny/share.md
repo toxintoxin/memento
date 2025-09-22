@@ -1,10 +1,10 @@
 +++
-lastmod = 2025-09-17T21:00:00+08:00
-publishDate = 2025-09-12T18:00:00+08:00
+lastmod = 2025-09-17T13:00:00Z
+publishDate = 2025-09-12T10:00:00Z
 title = "share"
 +++
 
-分享Shiny app，一般有两种途径：
+分享Shiny app，一般有两种途径:
 
 Share your Shiny app as R scripts.  
 这是分享应用程序最简单的方式，但只有shiny用户在他们自己的电脑上有R(并且知道如何使用它)，它才有效。用户可以使用这些脚本从他们自己的R会话启动应用程序。  

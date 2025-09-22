@@ -14,7 +14,7 @@ unsafe= true
 
 [permalinks]
 [permalinks.page]
-  posts = "/posts/:2006/:01:02/:slug/"
+  posts = "/posts/:2006-:01-:02-:slug/"
 
 [menus]
   [[menus.main]]
