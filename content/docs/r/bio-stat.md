@@ -1,5 +1,5 @@
 +++
-lastmod = 2025-09-22T16:59:54Z
+lastmod = 2025-09-23T02:15:58Z
 publishDate = 2025-09-12T10:00:00Z
 title = "bio stat"
 +++
