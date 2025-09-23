@@ -1,0 +1,103 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.preview.host": "http://localhost:1313",
+  "frontMatter.taxonomy.frontMatterType": "TOML",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'HH:mm:ss'Z'",
+  "frontMatter.taxonomy.noPropertyValueQuotes": [
+    "lastmod",
+    "publishDate"
+  ],
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "docs",
+      "path": "[[workspace]]/content/docs",
+      "previewPath": "/docs/{{pathToken.relPath}}"
+    },
+    {
+      "title": "posts",
+      "path": "[[workspace]]/content/posts",
+      "previewPath": "/posts/{{pathToken.4}}"
+    },
+    {
+      "title": "ephemera",
+      "path": "[[workspace]]/content/ephemera",
+      "previewPath": "/posts/{{pathToken.relPath}}"
+    },
+    {
+      "title": "gallery",
+      "path": "[[workspace]]/content/gallery",
+      "previewPath": "/gallery/"
+    },
+    {
+      "title": "projects",
+      "path": "[[workspace]]/content/projects",
+      "previewPath": "/projects/{{pathToken.relPath}}"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Last updated",
+          "name": "lastmod",
+          "type": "datetime",
+          "isModifiedDate": true
+        },
+        {
+          "title": "Publish date",
+          "name": "publishDate",
+          "type": "datetime",
+          "isPublishDate": true
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "params",
+          "name": "params",
+          "type": "fields",
+          "fields": [
+            {
+              "title": "featured",
+              "name": "featured",
+              "type": "image"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "frontMatter.panel.actions.disabled": [
+    "openDashboard",
+    "optimizeSlug",
+    "startStopServer",
+    "createContent"
+  ],
+  "frontMatter.global.activeMode": "minimal",
+  "frontMatter.global.modes": [
+    {
+      "id": "minimal",
+      "features": [
+        "panel.actions",
+        "panel.metadata",
+        "panel.seo",
+        "dashboard.snippets.view",
+        "dashboard.snippets.manage",
+        "dashboard.data.view",
+        "dashboard.taxonomy.view"
+      ]
+    }
+  ]
+}
